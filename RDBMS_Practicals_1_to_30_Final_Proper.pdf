@@ -1,0 +1,3159 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 47
+/Kids [ 4 0 R 10 0 R 13 0 R 19 0 R 22 0 R 28 0 R 31 0 R 34 0 R 40 0 R 43 0 R 49 0 R 52 0 R 58 0 R 61 0 R 67 0 R 70 0 R 76 0 R 79 0 R 85 0 R 91 0 R 94 0 R 100 0 R 106 0 R 109 0 R 115 0 R 118 0 R 124 0 R 127 0 R 133 0 R 139 0 R 142 0 R 148 0 R 151 0 R 157 0 R 160 0 R 166 0 R 172 0 R 178 0 R 184 0 R 190 0 R 196 0 R 202 0 R 208 0 R 214 0 R 220 0 R 226 0 R 232 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Type /Page
+/Contents [ 5 0 R 6 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F12feeeed8-cfb6-4cdf-8022-dc3ee5376428 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 2447
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (SQL Practical No. 1 - Demonstrate GROUP BY and)Tj T* (ORDER BY)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Demonstrate the use of GROUP BY and ORDER BY clause.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE SAMPLE TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEE \()Tj T* (    Emp_id NUMBER PRIMARY KEY,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Department VARCHAR2\(50\),)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEE VALUES \(1,'Om','IT',50000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(2,'Rahul','HR',30000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(3,'Sneha','IT',60000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(4,'Amit','Finance',40000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(5,'Neha','HR',35000\);)Tj T* T* (COMMIT;)Tj T* T* (OUTPUT:)Tj T* (1 row inserted.)Tj T* (Commit complete.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: GROUP BY CLAUSE)Tj T* (------------------------------------------------------------)Tj T* T* (Find total salary department-wise:)Tj T* T* (SELECT Department, SUM\(Salary\) AS Total_Salary)Tj T* (FROM EMPLOYEE)Tj T* (GROUP BY Department;)Tj T* T* (EXPECTED OUTPUT:)Tj T* T* (Department | Total_Salary)Tj T* (IT         | 110000)Tj T* (HR         | 65000)Tj T* (Finance    | 40000)Tj T* T* (Explanation:)Tj T* (GROUP BY groups rows with same Department and calculates total salary.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: ORDER BY CLAUSE)Tj T* (------------------------------------------------------------)Tj T* T* (Display employees ordered by salary \(descending\):)Tj T* T* (SELECT * FROM EMPLOYEE)Tj T* (ORDER BY Salary DESC;)Tj T* T* (EXPECTED OUTPUT:)Tj T* T* (Emp_id | Emp_name | Department | Salary)Tj T* (3      | Sneha    | IT         | 60000)Tj T* (1      | Om       | IT         | 50000)Tj T* (4      | Amit     | Finance    | 40000)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F12feeeed8-cfb6-4cdf-8022-dc3ee5376428 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+6 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Contents [ 11 0 R 12 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 7 0 R
+/F3 9 0 R
+/F1053e49d4-a620-4b7e-a757-06b95bc9e9be <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 710
+>>
+stream
+q q 1 0 0 1 78 658.2898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 97.6 Tm (5      | Neha     | HR         | 35000)Tj T* (2      | Rahul    | HR         | 30000)Tj T* T* (Explanation:)Tj T* (ORDER BY sorts records in ascending \(ASC\) or descending \(DESC\) order.)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. GROUP BY is used with aggregate functions \(SUM, COUNT, AVG, MAX, MIN\).)Tj T* (2. ORDER BY sorts the result in ascending \(default\) or descending order.)Tj T* (3. GROUP BY is executed before ORDER BY in query processing.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1053e49d4-a620-4b7e-a757-06b95bc9e9be 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+12 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+13 0 obj
+<<
+/Type /Page
+/Contents [ 14 0 R 15 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 16 0 R
+/F2 17 0 R
+/F3 18 0 R
+/F1ba71d753-f8b3-4118-90e6-8423b79d0f99 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 2985
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (SQL Practical No. 2 - Hospital Database)Tj T* ET Q q 1 0 0 1 78 89.48976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 616.8 Tm (QUESTION:)Tj T* T* (Consider the following schema for a Hospital Database:)Tj T* T* (DOCTOR \(Did, Dname, DAddress, Qualification\))Tj T* (PATIENTMASTER \(Pcode, Pname, Padd, age, gender, bloodgroup, Pid\))Tj T* (ADMITTEDPATIENT \(Pcode, EntryDate, DischargeDate, WardNo, Disease\))Tj T* T* (Queries:)Tj T* (a\) Find the detail of the doctor who is treating the patient of ward no 3)Tj T* (b\) Find the detail of patient admitted within period 03/03/2020 to 25/05/2020)Tj T* (c\) Find the detail of patient who are suffered from blood cancer)Tj T* (d\) Create view on DOCTOR & PATIENTMASTER tables)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE TABLES)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE DOCTOR \()Tj T* (    Did NUMBER PRIMARY KEY,)Tj T* (    Dname VARCHAR2\(50\),)Tj T* (    DAddress VARCHAR2\(100\),)Tj T* (    Qualification VARCHAR2\(30\))Tj T* (\);)Tj T* T* (CREATE TABLE PATIENTMASTER \()Tj T* (    Pcode NUMBER PRIMARY KEY,)Tj T* (    Pname VARCHAR2\(50\),)Tj T* (    Padd VARCHAR2\(100\),)Tj T* (    age NUMBER,)Tj T* (    gender CHAR\(1\),)Tj T* (    bloodgroup VARCHAR2\(5\),)Tj T* (    Pid NUMBER,)Tj T* (    FOREIGN KEY \(Pid\) REFERENCES DOCTOR\(Did\))Tj T* (\);)Tj T* T* (CREATE TABLE ADMITTEDPATIENT \()Tj T* (    Pcode NUMBER,)Tj T* (    EntryDate DATE,)Tj T* (    DischargeDate DATE,)Tj T* (    WardNo NUMBER,)Tj T* (    Disease VARCHAR2\(50\),)Tj T* (    FOREIGN KEY \(Pcode\) REFERENCES PATIENTMASTER\(Pcode\))Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO DOCTOR VALUES \(1,'Dr. Amit','Mumbai','MBBS'\);)Tj T* (INSERT INTO DOCTOR VALUES \(2,'Dr. Neha','Pune','MD'\);)Tj T* T* (INSERT INTO PATIENTMASTER VALUES \(101,'Rahul','Mumbai',25,'M','A+',1\);)Tj T* (INSERT INTO PATIENTMASTER VALUES \(102,'Sneha','Pune',40,'F','B+',2\);)Tj T* T* (INSERT INTO ADMITTEDPATIENT VALUES)Tj T* (\(101, TO_DATE\('05-03-2020','DD-MM-YYYY'\),)Tj T* ( TO_DATE\('15-03-2020','DD-MM-YYYY'\), 3, 'Fever'\);)Tj T* T* (INSERT INTO ADMITTEDPATIENT VALUES)Tj T* (\(102, TO_DATE\('10-04-2020','DD-MM-YYYY'\),)Tj T* ( TO_DATE\('20-05-2020','DD-MM-YYYY'\), 2, 'Blood Cancer'\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: QUERIES)Tj T* (------------------------------------------------------------)Tj T* ET Q q 1 0 0 1 78 80.68976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 .8 Tm (a\) Doctor treating patient in ward no 3)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1ba71d753-f8b3-4118-90e6-8423b79d0f99 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+15 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+16 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+19 0 obj
+<<
+/Type /Page
+/Contents [ 20 0 R 21 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 16 0 R
+/F3 18 0 R
+/F1f6315066-469c-4656-929d-8e228a7fd192 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 1681
+>>
+stream
+q q 1 0 0 1 78 350.2898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 405.6 Tm (SELECT D.*)Tj T* (FROM DOCTOR D)Tj T* (JOIN PATIENTMASTER P ON D.Did = P.Pid)Tj T* (JOIN ADMITTEDPATIENT A ON P.Pcode = A.Pcode)Tj T* (WHERE A.WardNo = 3;)Tj T* T* (b\) Patients admitted between 03/03/2020 and 25/05/2020)Tj T* T* (SELECT *)Tj T* (FROM ADMITTEDPATIENT)Tj T* (WHERE EntryDate BETWEEN)Tj T* (TO_DATE\('03-03-2020','DD-MM-YYYY'\))Tj T* (AND TO_DATE\('25-05-2020','DD-MM-YYYY'\);)Tj T* T* (c\) Patients suffering from blood cancer)Tj T* T* (SELECT *)Tj T* (FROM ADMITTEDPATIENT)Tj T* (WHERE Disease = 'Blood Cancer';)Tj T* T* (d\) Create View on DOCTOR & PATIENTMASTER)Tj T* T* (CREATE VIEW Doctor_Patient_View AS)Tj T* (SELECT D.Dname, D.Qualification, P.Pname, P.age, P.bloodgroup)Tj T* (FROM DOCTOR D)Tj T* (JOIN PATIENTMASTER P ON D.Did = P.Pid;)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT \(Sample\))Tj T* T* (Doctor in Ward 3:)Tj T* (Did | Dname    | DAddress | Qualification)Tj T* (1   | Dr. Amit | Mumbai   | MBBS)Tj T* T* (Patients between given dates:)Tj T* (101 | 05-MAR-20 | 15-MAR-20 | 3 | Fever)Tj T* (102 | 10-APR-20 | 20-MAY-20 | 2 | Blood Cancer)Tj T* T* (View Created Successfully.)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. PRIMARY KEY uniquely identifies records.)Tj T* (2. FOREIGN KEY creates relationship between tables.)Tj T* (3. JOIN is used to combine data from multiple tables.)Tj T* (4. VIEW is virtual table created from SELECT query.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1f6315066-469c-4656-929d-8e228a7fd192 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+21 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+22 0 obj
+<<
+/Type /Page
+/Contents [ 23 0 R 24 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 25 0 R
+/F2 26 0 R
+/F3 27 0 R
+/F167d60b06-3e0c-4d21-ae4d-f78c1511269d <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 1999
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (Practical No. 3)Tj T* ET Q q 1 0 0 1 78 673.4898 cm 0 0 0 rg BT 18 TL/F2 14 Tf 1 0 0 1 0 22 Tm (Create Department table with the following structure and perform)Tj T* (the operations:)Tj T* ET Q q 1 0 0 1 78 619.8898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Question: Create department table with required structure.)Tj T* ET Q q 1 0 0 1 78 573.4898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Query:)Tj T* ET Q q 1 0 0 1 78 483.4898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 74 Tm T* (CREATE TABLE Department \()Tj T* (Deptno INT PRIMARY KEY,)Tj T* (DeptName VARCHAR\(30\) NOT NULL,)Tj T* (Location VARCHAR\(30\),)Tj T* (Contact VARCHAR\(15\))Tj T* (\);)Tj T* ET Q q 1 0 0 1 78 457.0898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 2 Tm (Output: Table created successfully.)Tj T* ET Q q 1 0 0 1 78 402.2898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (a\) Add column Designation to the department table.)Tj T* ET Q q 1 0 0 1 78 355.8898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Query:)Tj T* ET Q q 1 0 0 1 78 313.8898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 26 Tm T* (ALTER TABLE Department)Tj T* (ADD Designation VARCHAR\(30\);)Tj T* ET Q q 1 0 0 1 78 287.4898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 2 Tm (Output: Table altered successfully.)Tj T* ET Q q 1 0 0 1 78 232.6898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (b\) Insert values into the table.)Tj T* ET Q q 1 0 0 1 78 186.2898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Query:)Tj T* ET Q q 1 0 0 1 78 108.2898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 62 Tm T* (INSERT INTO Department \(Deptno, DeptName, Location, Contact, Designation\))Tj T* (VALUES)Tj T* (\(1, 'Computer', 'Jalgaon', '9876543210', 'Head Dept'\),)Tj T* (\(2, 'Mechanical', 'Pune', '9876501234', 'Supervisor'\),)Tj T* (\(9, 'Civil', 'Mumbai', '9123456780', 'Manager'\);)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F167d60b06-3e0c-4d21-ae4d-f78c1511269d 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+24 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+25 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+26 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+27 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-BoldOblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+28 0 obj
+<<
+/Type /Page
+/Contents [ 29 0 R 30 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 25 0 R
+/F3 27 0 R
+/F1cca8d313-85df-4be6-ad9b-c4906a3f423b <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 4062
+>>
+stream
+q q 1 0 0 1 78 749.8898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Output:)Tj T* ET Q q 1 0 0 1 153.1328 671.8898 cm .827451 .827451 .827451 rg 0 72 289.01 -18 re f* 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 6 59 Tm (Deptno)Tj T* ET BT 1 0 0 1 50.24 59 Tm (DeptName)Tj T* ET BT 1 0 0 1 112.81 59 Tm (Location)Tj T* ET BT 1 0 0 1 162.61 59 Tm (Contact)Tj T* ET BT 1 0 0 1 230.21 59 Tm (Designation)Tj T* ET BT 1 0 0 1 6 41 Tm (1)Tj T* ET BT 1 0 0 1 50.24 41 Tm (Computer)Tj T* ET BT 1 0 0 1 112.81 41 Tm (Jalgaon)Tj T* ET BT 1 0 0 1 162.61 41 Tm (9876543210)Tj T* ET BT 1 0 0 1 230.21 41 Tm (Head Dept)Tj T* ET BT 1 0 0 1 6 23 Tm (2)Tj T* ET BT 1 0 0 1 50.24 23 Tm (Mechanical)Tj T* ET BT 1 0 0 1 112.81 23 Tm (Pune)Tj T* ET BT 1 0 0 1 162.61 23 Tm (9876501234)Tj T* ET BT 1 0 0 1 230.21 23 Tm (Supervisor)Tj T* ET BT 1 0 0 1 6 5 Tm (9)Tj T* ET BT 1 0 0 1 50.24 5 Tm (Civil)Tj T* ET BT 1 0 0 1 112.81 5 Tm (Mumbai)Tj T* ET BT 1 0 0 1 162.61 5 Tm (9123456780)Tj T* ET BT 1 0 0 1 230.21 5 Tm (Manager)Tj T* ET q 0 0 0 RG 1 J 1 j 0 72 m 289.01 72 l S 0 0 m 289.01 0 l S 0 0 m 0 72 l S 289.01 0 m 289.01 72 l S 0 54 m 289.01 54 l S 0 36 m 289.01 36 l S 0 18 m 289.01 18 l S 44.24 0 m 44.24 72 l S 106.81 0 m 106.81 72 l S 156.61 0 m 156.61 72 l S 224.21 0 m 224.21 72 l S Q Q q 1 0 0 1 78 617.0898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (c\) List the records of dept table grouped by deptno.)Tj T* ET Q q 1 0 0 1 78 570.6898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Query:)Tj T* ET Q q 1 0 0 1 78 516.6898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 38 Tm T* (SELECT Deptno, COUNT\(*\) AS Total)Tj T* (FROM Department)Tj T* (GROUP BY Deptno;)Tj T* ET Q q 1 0 0 1 78 476.2898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Output:)Tj T* ET Q q 1 0 0 1 258.4028 398.2898 cm .827451 .827451 .827451 rg 0 72 78.47 -18 re f* 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 6 59 Tm (Deptno)Tj T* ET BT 1 0 0 1 50.24 59 Tm (Total)Tj T* ET BT 1 0 0 1 6 41 Tm (1)Tj T* ET BT 1 0 0 1 50.24 41 Tm (1)Tj T* ET BT 1 0 0 1 6 23 Tm (2)Tj T* ET BT 1 0 0 1 50.24 23 Tm (1)Tj T* ET BT 1 0 0 1 6 5 Tm (9)Tj T* ET BT 1 0 0 1 50.24 5 Tm (1)Tj T* ET q 0 0 0 RG 1 J 1 j 0 72 m 78.47 72 l S 0 0 m 78.47 0 l S 0 0 m 0 72 l S 78.47 0 m 78.47 72 l S 0 54 m 78.47 54 l S 0 36 m 78.47 36 l S 0 18 m 78.47 18 l S 44.24 0 m 44.24 72 l S Q Q q 1 0 0 1 78 343.4898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (d\) Update the record where deptno is 9.)Tj T* ET Q q 1 0 0 1 78 297.0898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Query:)Tj T* ET Q q 1 0 0 1 78 231.0898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 50 Tm T* (UPDATE Department)Tj T* (SET Location = 'Nashik',)Tj T* (Contact = '9999999999')Tj T* (WHERE Deptno = 9;)Tj T* ET Q q 1 0 0 1 78 190.6898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Output:)Tj T* ET Q q 1 0 0 1 153.1328 112.6898 cm .827451 .827451 .827451 rg 0 72 289.01 -18 re f* 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 6 59 Tm (Deptno)Tj T* ET BT 1 0 0 1 50.24 59 Tm (DeptName)Tj T* ET BT 1 0 0 1 112.81 59 Tm (Location)Tj T* ET BT 1 0 0 1 162.61 59 Tm (Contact)Tj T* ET BT 1 0 0 1 230.21 59 Tm (Designation)Tj T* ET BT 1 0 0 1 6 41 Tm (1)Tj T* ET BT 1 0 0 1 50.24 41 Tm (Computer)Tj T* ET BT 1 0 0 1 112.81 41 Tm (Jalgaon)Tj T* ET BT 1 0 0 1 162.61 41 Tm (9876543210)Tj T* ET BT 1 0 0 1 230.21 41 Tm (Head Dept)Tj T* ET BT 1 0 0 1 6 23 Tm (2)Tj T* ET BT 1 0 0 1 50.24 23 Tm (Mechanical)Tj T* ET BT 1 0 0 1 112.81 23 Tm (Pune)Tj T* ET BT 1 0 0 1 162.61 23 Tm (9876501234)Tj T* ET BT 1 0 0 1 230.21 23 Tm (Supervisor)Tj T* ET BT 1 0 0 1 6 5 Tm (9)Tj T* ET BT 1 0 0 1 50.24 5 Tm (Civil)Tj T* ET BT 1 0 0 1 112.81 5 Tm (Nashik)Tj T* ET BT 1 0 0 1 162.61 5 Tm (9999999999)Tj T* ET BT 1 0 0 1 230.21 5 Tm (Manager)Tj T* ET q 0 0 0 RG 1 J 1 j 0 72 m 289.01 72 l S 0 0 m 289.01 0 l S 0 0 m 0 72 l S 289.01 0 m 289.01 72 l S 0 54 m 289.01 54 l S 0 36 m 289.01 36 l S 0 18 m 289.01 18 l S 44.24 0 m 44.24 72 l S 106.81 0 m 106.81 72 l S 156.61 0 m 156.61 72 l S 224.21 0 m 224.21 72 l S Q Q Q q 0 0 612 792 re W n BT 9.6 TL/F1cca8d313-85df-4be6-ad9b-c4906a3f423b 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+30 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+31 0 obj
+<<
+/Type /Page
+/Contents [ 32 0 R 33 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 25 0 R
+/F3 27 0 R
+/F1617dcda3-6b8c-473c-b54e-e7d52a041b83 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 1730
+>>
+stream
+q q 1 0 0 1 78 749.8898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (e\) Delete any column data from the table.)Tj T* ET Q q 1 0 0 1 78 703.4898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Query:)Tj T* ET Q q 1 0 0 1 78 649.4898 cm 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 0 38 Tm T* (UPDATE Department)Tj T* (SET Contact = NULL)Tj T* (WHERE Deptno = 2;)Tj T* ET Q q 1 0 0 1 78 609.0898 cm 0 0 0 rg BT 14 TL/F3 12 Tf 1 0 0 1 0 2 Tm (Output:)Tj T* ET Q q 1 0 0 1 153.1328 531.0898 cm .827451 .827451 .827451 rg 0 72 289.01 -18 re f* 0 0 0 rg BT 12 TL/F1 10 Tf 1 0 0 1 6 59 Tm (Deptno)Tj T* ET BT 1 0 0 1 50.24 59 Tm (DeptName)Tj T* ET BT 1 0 0 1 112.81 59 Tm (Location)Tj T* ET BT 1 0 0 1 162.61 59 Tm (Contact)Tj T* ET BT 1 0 0 1 230.21 59 Tm (Designation)Tj T* ET BT 1 0 0 1 6 41 Tm (1)Tj T* ET BT 1 0 0 1 50.24 41 Tm (Computer)Tj T* ET BT 1 0 0 1 112.81 41 Tm (Jalgaon)Tj T* ET BT 1 0 0 1 162.61 41 Tm (9876543210)Tj T* ET BT 1 0 0 1 230.21 41 Tm (Head Dept)Tj T* ET BT 1 0 0 1 6 23 Tm (2)Tj T* ET BT 1 0 0 1 50.24 23 Tm (Mechanical)Tj T* ET BT 1 0 0 1 112.81 23 Tm (Pune)Tj T* ET BT 1 0 0 1 162.61 23 Tm (NULL)Tj T* ET BT 1 0 0 1 230.21 23 Tm (Supervisor)Tj T* ET BT 1 0 0 1 6 5 Tm (9)Tj T* ET BT 1 0 0 1 50.24 5 Tm (Civil)Tj T* ET BT 1 0 0 1 112.81 5 Tm (Nashik)Tj T* ET BT 1 0 0 1 162.61 5 Tm (9999999999)Tj T* ET BT 1 0 0 1 230.21 5 Tm (Manager)Tj T* ET q 0 0 0 RG 1 J 1 j 0 72 m 289.01 72 l S 0 0 m 289.01 0 l S 0 0 m 0 72 l S 289.01 0 m 289.01 72 l S 0 54 m 289.01 54 l S 0 36 m 289.01 36 l S 0 18 m 289.01 18 l S 44.24 0 m 44.24 72 l S 106.81 0 m 106.81 72 l S 156.61 0 m 156.61 72 l S 224.21 0 m 224.21 72 l S Q Q Q q 0 0 612 792 re W n BT 9.6 TL/F1617dcda3-6b8c-473c-b54e-e7d52a041b83 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+33 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+34 0 obj
+<<
+/Type /Page
+/Contents [ 35 0 R 36 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 37 0 R
+/F2 38 0 R
+/F3 39 0 R
+/F132871f68-d6ab-4464-ada0-b81d776816b6 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 2790
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (SQL Practical 4 - Doctor & Patient Database)Tj T* ET Q q 1 0 0 1 78 80.68976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 625.6 Tm (QUESTION:)Tj T* T* (Create database using following schema. Apply Integrity Constraints and)Tj T* (answer the following queries using SQL.)Tj T* T* (DOCTOR \(Did, Dname, Daddress, qualification\))Tj T* (PATIENT \(Pid, Pname, age, gender\))Tj T* T* (Integrity Constraints:)Tj T* (1. All attributes should NOT NULL.)Tj T* (2. Did should be UNIQUE.)Tj T* (3. Pid should be UNIQUE.)Tj T* (4. Gender should be 'M' or 'F'.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE TABLES)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE DOCTOR \()Tj T* (    Did NUMBER PRIMARY KEY,)Tj T* (    Dname VARCHAR2\(50\) NOT NULL,)Tj T* (    Daddress VARCHAR2\(100\) NOT NULL,)Tj T* (    qualification VARCHAR2\(20\) NOT NULL)Tj T* (\);)Tj T* T* (CREATE TABLE PATIENT \()Tj T* (    Pid NUMBER PRIMARY KEY,)Tj T* (    Pname VARCHAR2\(50\) NOT NULL,)Tj T* (    age NUMBER NOT NULL,)Tj T* (    gender CHAR\(1\) CHECK \(gender IN \('M','F'\)\) NOT NULL)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT AT LEAST 10 RECORDS)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO DOCTOR VALUES \(1,'Dr. Amit','Mumbai','MBBS'\);)Tj T* (INSERT INTO DOCTOR VALUES \(2,'Dr. Neha','Pune','MD'\);)Tj T* (INSERT INTO DOCTOR VALUES \(3,'Dr. Raj','Delhi','M.S'\);)Tj T* (INSERT INTO DOCTOR VALUES \(4,'Dr. Simran','Nashik','MBBS'\);)Tj T* (INSERT INTO DOCTOR VALUES \(5,'Dr. Karan','Nagpur','M.D'\);)Tj T* T* (INSERT INTO PATIENT VALUES \(1,'Rahul',25,'M'\);)Tj T* (INSERT INTO PATIENT VALUES \(2,'Sneha',30,'F'\);)Tj T* (INSERT INTO PATIENT VALUES \(3,'Aman',45,'M'\);)Tj T* (INSERT INTO PATIENT VALUES \(4,'Pooja',35,'F'\);)Tj T* (INSERT INTO PATIENT VALUES \(5,'Rohit',50,'M'\);)Tj T* T* (COMMIT;)Tj T* T* (OUTPUT:)Tj T* (1 row inserted.)Tj T* (Commit complete.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: QUERIES)Tj T* (------------------------------------------------------------)Tj T* T* (a\) Insert at least 10 records)Tj T* (   \(Done above\))Tj T* T* (b\) Find details of all doctors)Tj T* (   SELECT * FROM DOCTOR;)Tj T* T* (c\) Delete records from DOCTOR where qualification is 'M.S')Tj T* (   DELETE FROM DOCTOR WHERE qualification='M.S';)Tj T* T* (d\) Find details of patient where age < 40)Tj T* (   SELECT * FROM PATIENT WHERE age < 40;)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F132871f68-d6ab-4464-ada0-b81d776816b6 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+36 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+37 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+38 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+39 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+40 0 obj
+<<
+/Type /Page
+/Contents [ 41 0 R 42 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 37 0 R
+/F3 39 0 R
+/F128289c79-75d0-471c-b032-270edb8d710a <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 1271
+>>
+stream
+q q 1 0 0 1 78 447.0898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 308.8 Tm (e\) Update patient name where patient id = 5)Tj T* (   UPDATE PATIENT SET Pname='Ramesh' WHERE Pid=5;)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT \(Sample\))Tj T* T* (SELECT * FROM DOCTOR;)Tj T* T* (Did | Dname     | Daddress | qualification)Tj T* (1   | Dr. Amit  | Mumbai   | MBBS)Tj T* (2   | Dr. Neha  | Pune     | MD)Tj T* (4   | Dr. Simran| Nashik   | MBBS)Tj T* (5   | Dr. Karan | Nagpur   | M.D)Tj T* T* (SELECT * FROM PATIENT WHERE age < 40;)Tj T* T* (Pid | Pname  | age | gender)Tj T* (1   | Rahul  | 25  | M)Tj T* (2   | Sneha  | 30  | F)Tj T* (4   | Pooja  | 35  | F)Tj T* T* (After Update:)Tj T* (SELECT * FROM PATIENT WHERE Pid=5;)Tj T* T* (5 | Ramesh | 50 | M)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. PRIMARY KEY ensures uniqueness and NOT NULL.)Tj T* (2. CHECK constraint restricts gender values.)Tj T* (3. NOT NULL prevents empty values.)Tj T* (4. DELETE removes records permanently.)Tj T* (5. UPDATE modifies existing records.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F128289c79-75d0-471c-b032-270edb8d710a 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+42 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+43 0 obj
+<<
+/Type /Page
+/Contents [ 44 0 R 45 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 46 0 R
+/F2 47 0 R
+/F3 48 0 R
+/F106d47f44-fc80-4368-ae5d-0d1062cbfa2f <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 2360
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (PL/SQL Practical Examination)Tj T* ET Q q 1 0 0 1 78 617.4898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 88.8 Tm (Question:)Tj T* (Write a PL/SQL code to create an employee database with the tables )Tj T* (and fields specified as below.)Tj T* T* (Employee [Emp_no, Employee_name, Street, City])Tj T* T* (Works [Emp_no, Company_name, Joining_date, Designation, Salary])Tj T* T* (Company [Emp_no, City])Tj T* T* (Manages [Emp_no, Manager_name, Mang_no])Tj T* ET Q q 1 0 0 1 78 85.48976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 502.4 Tm (-----------------------------------------------)Tj T* (STEP 1: CREATE TABLES)Tj T* (-----------------------------------------------)Tj T* T* (CREATE TABLE Employee \()Tj T* (    Emp_no NUMBER PRIMARY KEY,)Tj T* (    Employee_name VARCHAR2\(50\),)Tj T* (    Street VARCHAR2\(50\),)Tj T* (    City VARCHAR2\(50\))Tj T* (\);)Tj T* T* (CREATE TABLE Works \()Tj T* (    Emp_no NUMBER,)Tj T* (    Company_name VARCHAR2\(50\),)Tj T* (    Joining_date DATE,)Tj T* (    Designation VARCHAR2\(50\),)Tj T* (    Salary NUMBER\(8,2\),)Tj T* (    PRIMARY KEY \(Emp_no\),)Tj T* (    FOREIGN KEY \(Emp_no\) REFERENCES Employee\(Emp_no\))Tj T* (\);)Tj T* T* (CREATE TABLE Company \()Tj T* (    Emp_no NUMBER,)Tj T* (    City VARCHAR2\(50\),)Tj T* (    PRIMARY KEY \(Emp_no\),)Tj T* (    FOREIGN KEY \(Emp_no\) REFERENCES Employee\(Emp_no\))Tj T* (\);)Tj T* T* (CREATE TABLE Manages \()Tj T* (    Emp_no NUMBER,)Tj T* (    Manager_name VARCHAR2\(50\),)Tj T* (    Mang_no NUMBER,)Tj T* (    PRIMARY KEY \(Emp_no\),)Tj T* (    FOREIGN KEY \(Emp_no\) REFERENCES Employee\(Emp_no\))Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (-----------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (-----------------------------------------------)Tj T* T* (INSERT INTO Employee VALUES \(1,'Om','MG Road','Mumbai'\);)Tj T* T* (INSERT INTO Works VALUES \(1,'TCS',)Tj T* (TO_DATE\('01-01-2024','DD-MM-YYYY'\),)Tj T* ('Developer',40000\);)Tj T* T* (INSERT INTO Company VALUES \(1,'Mumbai'\);)Tj T* T* (INSERT INTO Manages VALUES \(1,'Amit',101\);)Tj T* T* (COMMIT;)Tj T* T* (OUTPUT:)Tj T* (1 row inserted.)Tj T* (Commit complete.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F106d47f44-fc80-4368-ae5d-0d1062cbfa2f 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+45 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+46 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+47 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+48 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+49 0 obj
+<<
+/Type /Page
+/Contents [ 50 0 R 51 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 46 0 R
+/F3 48 0 R
+/F132a96be5-b8a2-4c32-a42d-cc9fb9a17c50 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 1218
+>>
+stream
+q q 1 0 0 1 78 455.8898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 300 Tm (-----------------------------------------------)Tj T* (STEP 3: DISPLAY DATA)Tj T* (-----------------------------------------------)Tj T* T* (SELECT * FROM Employee;)Tj T* (SELECT * FROM Works;)Tj T* (SELECT * FROM Company;)Tj T* (SELECT * FROM Manages;)Tj T* T* (EXPECTED OUTPUT:)Tj T* T* (EMPLOYEE)Tj T* (Emp_no | Employee_name | Street   | City)Tj T* (1      | Om            | MG Road  | Mumbai)Tj T* T* (WORKS)Tj T* (Emp_no | Company_name | Joining_date | Designation | Salary)Tj T* (1      | TCS          | 01-JAN-24    | Developer   | 40000)Tj T* T* (COMPANY)Tj T* (Emp_no | City)Tj T* (1      | Mumbai)Tj T* T* (MANAGES)Tj T* (Emp_no | Manager_name | Mang_no)Tj T* (1      | Amit         | 101)Tj T* T* (-----------------------------------------------)Tj T* (VIVA POINTS)Tj T* (-----------------------------------------------)Tj T* T* (1. Emp_no is Primary Key in Employee table.)Tj T* (2. Foreign Key is used to link related tables.)Tj T* (3. Joining_date datatype is DATE.)Tj T* (4. Salary datatype is NUMBER\(8,2\).)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F132a96be5-b8a2-4c32-a42d-cc9fb9a17c50 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+51 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+52 0 obj
+<<
+/Type /Page
+/Contents [ 53 0 R 54 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 55 0 R
+/F2 56 0 R
+/F3 57 0 R
+/F197d43b30-2049-45ee-b910-d7c8126b271a <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 2752
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (PL/SQL Practical No. 6 - Retrieve Employee Details)Tj T* ET Q q 1 0 0 1 78 80.68976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 625.6 Tm (QUESTION:)Tj T* T* (Write a PL/SQL code to retrieve the employee name, joining date, )Tj T* (and designation from employee database of an employee whose )Tj T* (employee number is input by the user.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE TABLE \(If not already created\))Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEE \()Tj T* (    Emp_no NUMBER PRIMARY KEY,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Join_date DATE,)Tj T* (    Designation VARCHAR2\(50\))Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEE VALUES \(1,'Om',TO_DATE\('01-01-2023','DD-MM-YYYY'\),'Developer'\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(2,'Rahul',TO_DATE\('15-06-2022','DD-MM-YYYY'\),'Manager'\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(3,'Sneha',TO_DATE\('10-03-2021','DD-MM-YYYY'\),'HR'\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: PL/SQL BLOCK)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    v_empno EMPLOYEE.Emp_no%TYPE;)Tj T* (    v_name EMPLOYEE.Emp_name%TYPE;)Tj T* (    v_date EMPLOYEE.Join_date%TYPE;)Tj T* (    v_desig EMPLOYEE.Designation%TYPE;)Tj T* (BEGIN)Tj T* (    v_empno := &Enter_Employee_Number;)Tj T* T* (    SELECT Emp_name, Join_date, Designation)Tj T* (    INTO v_name, v_date, v_desig)Tj T* (    FROM EMPLOYEE)Tj T* (    WHERE Emp_no = v_empno;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Employee Name: ' || v_name\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Joining Date: ' || v_date\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Designation: ' || v_desig\);)Tj T* T* (EXCEPTION)Tj T* (    WHEN NO_DATA_FOUND THEN)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Employee not found.'\);)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (SAMPLE INPUT:)Tj T* T* (Enter value for Enter_Employee_Number: 1)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Employee Name: Om)Tj T* (Joining Date: 01-JAN-23)Tj T* (Designation: Developer)Tj T* T* (------------------------------------------------------------)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F197d43b30-2049-45ee-b910-d7c8126b271a 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+54 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+55 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+56 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+57 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+58 0 obj
+<<
+/Type /Page
+/Contents [ 59 0 R 60 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 55 0 R
+/F3 57 0 R
+/F18abbdcd7-8003-49e1-b5d6-1a134a2e7d60 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+59 0 obj
+<<
+/Length 438
+>>
+stream
+q q 1 0 0 1 78 711.0898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 44.8 Tm (VIVA POINTS:)Tj T* T* (1. %TYPE is used to inherit datatype from table column.)Tj T* (2. SELECT INTO is used to fetch single row data.)Tj T* (3. DBMS_OUTPUT.PUT_LINE prints output.)Tj T* (4. EXCEPTION handles runtime errors like NO_DATA_FOUND.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F18abbdcd7-8003-49e1-b5d6-1a134a2e7d60 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+60 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+61 0 obj
+<<
+/Type /Page
+/Contents [ 62 0 R 63 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 64 0 R
+/F2 65 0 R
+/F3 66 0 R
+/F1354f9dba-12d2-485a-a32d-9d3cbd283eab <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+62 0 obj
+<<
+/Length 2486
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 7 - Update Salary Using)Tj T* (Cursor)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Write a PL/SQL code to update the salary of employees who earn )Tj T* (less than the average salary using cursor.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEE \()Tj T* (    Emp_id NUMBER PRIMARY KEY,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEE VALUES \(1,'Om',30000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(2,'Rahul',50000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(3,'Sneha',20000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(4,'Amit',60000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(5,'Neha',25000\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: PL/SQL CODE USING CURSOR)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    v_avg_salary EMPLOYEE.Salary%TYPE;)Tj T* T* (    CURSOR emp_cursor IS)Tj T* (        SELECT Emp_id, Salary)Tj T* (        FROM EMPLOYEE)Tj T* (        WHERE Salary < \(SELECT AVG\(Salary\) FROM EMPLOYEE\);)Tj T* T* (BEGIN)Tj T* (    -- Calculate average salary)Tj T* (    SELECT AVG\(Salary\) INTO v_avg_salary FROM EMPLOYEE;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Average Salary: ' || v_avg_salary\);)Tj T* T* (    -- Loop through employees earning less than average)Tj T* (    FOR emp_rec IN emp_cursor LOOP)Tj T* (        UPDATE EMPLOYEE)Tj T* (        SET Salary = Salary + 5000)Tj T* (        WHERE Emp_id = emp_rec.Emp_id;)Tj T* T* (        DBMS_OUTPUT.PUT_LINE\('Salary Updated for Emp_id: ' || emp_rec.Emp_id\);)Tj T* (    END LOOP;)Tj T* T* (    COMMIT;)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT \(Sample\))Tj T* T* (Average Salary: 37000)Tj T* T* (Salary Updated for Emp_id: 1)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1354f9dba-12d2-485a-a32d-9d3cbd283eab 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+63 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+64 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+65 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+66 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+67 0 obj
+<<
+/Type /Page
+/Contents [ 68 0 R 69 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 64 0 R
+/F3 66 0 R
+/F180463c1c-7873-4140-ac02-ea183adb2d34 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+68 0 obj
+<<
+/Length 914
+>>
+stream
+q q 1 0 0 1 78 570.2898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 185.6 Tm (Salary Updated for Emp_id: 3)Tj T* (Salary Updated for Emp_id: 5)Tj T* T* (------------------------------------------------------------)Tj T* (VERIFY UPDATED DATA)Tj T* T* (SELECT * FROM EMPLOYEE;)Tj T* T* (Emp_id | Emp_name | Salary)Tj T* (1      | Om       | 35000)Tj T* (2      | Rahul    | 50000)Tj T* (3      | Sneha    | 25000)Tj T* (4      | Amit     | 60000)Tj T* (5      | Neha     | 30000)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Cursor is used to process multiple rows one by one.)Tj T* (2. AVG\(\) is an aggregate function.)Tj T* (3. FOR LOOP automatically opens, fetches, and closes the cursor.)Tj T* (4. COMMIT saves the changes permanently.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F180463c1c-7873-4140-ac02-ea183adb2d34 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+69 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+70 0 obj
+<<
+/Type /Page
+/Contents [ 71 0 R 72 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 73 0 R
+/F2 74 0 R
+/F3 75 0 R
+/F1d582cb00-9bfd-42de-b813-e18e0dd793c9 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+71 0 obj
+<<
+/Length 2389
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 8 - Row Trigger on Salary)Tj T* (Table)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Write a row trigger to insert the existing values of the salary table )Tj T* (into a new table when the salary table is updated.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE SALARY TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE SALARY \()Tj T* (    Emp_id NUMBER PRIMARY KEY,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO SALARY VALUES \(1,'Om',30000\);)Tj T* (INSERT INTO SALARY VALUES \(2,'Rahul',50000\);)Tj T* (INSERT INTO SALARY VALUES \(3,'Sneha',40000\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CREATE BACKUP TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE SALARY_BACKUP \()Tj T* (    Emp_id NUMBER,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Old_Salary NUMBER,)Tj T* (    Updated_On DATE)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: CREATE ROW LEVEL TRIGGER)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE OR REPLACE TRIGGER Salary_Update_Trigger)Tj T* (BEFORE UPDATE ON SALARY)Tj T* (FOR EACH ROW)Tj T* (BEGIN)Tj T* (    INSERT INTO SALARY_BACKUP)Tj T* (    VALUES \(:OLD.Emp_id, :OLD.Emp_name, :OLD.Salary, SYSDATE\);)Tj T* (END;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Trigger Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 5: UPDATE SALARY TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (UPDATE SALARY)Tj T* (SET Salary = 35000)Tj T* (WHERE Emp_id = 1;)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1d582cb00-9bfd-42de-b813-e18e0dd793c9 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+72 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+73 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+74 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+75 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+76 0 obj
+<<
+/Type /Page
+/Contents [ 77 0 R 78 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 73 0 R
+/F3 75 0 R
+/F199d87cf1-9033-4231-bafb-3dc7e11acb37 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+77 0 obj
+<<
+/Length 827
+>>
+stream
+q q 1 0 0 1 78 605.4898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 150.4 Tm (VERIFY BACKUP TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (SELECT * FROM SALARY_BACKUP;)Tj T* T* (EXPECTED OUTPUT:)Tj T* T* (Emp_id | Emp_name | Old_Salary | Updated_On)Tj T* (1      | Om       | 30000      | 22-FEB-26)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Row Trigger executes once for each row affected.)Tj T* (2. :OLD keyword stores old values before update.)Tj T* (3. :NEW keyword stores new values after update.)Tj T* (4. BEFORE UPDATE trigger runs before data modification.)Tj T* (5. SYSDATE returns current system date.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F199d87cf1-9033-4231-bafb-3dc7e11acb37 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+78 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+79 0 obj
+<<
+/Type /Page
+/Contents [ 80 0 R 81 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 82 0 R
+/F2 83 0 R
+/F3 84 0 R
+/F115155309-eea1-4676-935d-da0b3b6cf291 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+80 0 obj
+<<
+/Length 2470
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 9 - Trigger to Show Old and)Tj T* (New Ename)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Write a trigger on the Employee table which shows the old values )Tj T* (and new values of Ename after any updation on Ename on Employee table.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE EMPLOYEE TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEE \()Tj T* (    Emp_id NUMBER PRIMARY KEY,)Tj T* (    Ename VARCHAR2\(50\),)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEE VALUES \(1,'Om',30000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(2,'Rahul',40000\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CREATE ROW LEVEL TRIGGER)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (CREATE OR REPLACE TRIGGER Emp_Name_Update_Trigger)Tj T* (BEFORE UPDATE OF Ename ON EMPLOYEE)Tj T* (FOR EACH ROW)Tj T* (BEGIN)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Old Name: ' || :OLD.Ename\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('New Name: ' || :NEW.Ename\);)Tj T* (END;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Trigger Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: UPDATE EMPLOYEE NAME)Tj T* (------------------------------------------------------------)Tj T* T* (UPDATE EMPLOYEE)Tj T* (SET Ename = 'Bhavesh')Tj T* (WHERE Emp_id = 1;)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Old Name: Om)Tj T* (New Name: Bhavesh)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. BEFORE UPDATE OF Ename trigger fires only when Ename is updated.)Tj T* (2. :OLD stores old column value.)Tj T* (3. :NEW stores new column value.)Tj T* (4. FOR EACH ROW makes it a row-level trigger.)Tj T* (5. DBMS_OUTPUT.PUT_LINE displays the result.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F115155309-eea1-4676-935d-da0b3b6cf291 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+81 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+82 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+83 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+84 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+85 0 obj
+<<
+/Type /Page
+/Contents [ 86 0 R 87 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 88 0 R
+/F2 89 0 R
+/F3 90 0 R
+/F1bd295627-4f59-4b22-bbf2-56aee72e503a <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+86 0 obj
+<<
+/Length 3022
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT -.125487 Tw 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 10 - Procedure for Percentage)Tj T* 0 Tw (Range)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Write a PL/SQL procedure to find the number of students ranging from )Tj T* (100-70%, 69-60%, 59-50% & below 49% in each course from the )Tj T* (STUDENT_COURSE table given by the procedure as parameter.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE STUDENT_COURSE \()Tj T* (    Student_id NUMBER PRIMARY KEY,)Tj T* (    Student_name VARCHAR2\(50\),)Tj T* (    Course VARCHAR2\(50\),)Tj T* (    Percentage NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO STUDENT_COURSE VALUES \(1,'Om','MCA',85\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(2,'Rahul','MCA',72\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(3,'Sneha','MCA',65\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(4,'Amit','MCA',55\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(5,'Neha','MCA',45\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(6,'Karan','BCA',78\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(7,'Pooja','BCA',62\);)Tj T* (INSERT INTO STUDENT_COURSE VALUES \(8,'Riya','BCA',48\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CREATE PROCEDURE)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (CREATE OR REPLACE PROCEDURE Student_Percentage_Report\(p_course IN VARCHAR2\))Tj T* (IS)Tj T* (    v_70_100 NUMBER;)Tj T* (    v_60_69  NUMBER;)Tj T* (    v_50_59  NUMBER;)Tj T* (    v_below49 NUMBER;)Tj T* (BEGIN)Tj T* (    SELECT COUNT\(*\) INTO v_70_100)Tj T* (    FROM STUDENT_COURSE)Tj T* (    WHERE Course = p_course AND Percentage BETWEEN 70 AND 100;)Tj T* T* (    SELECT COUNT\(*\) INTO v_60_69)Tj T* (    FROM STUDENT_COURSE)Tj T* (    WHERE Course = p_course AND Percentage BETWEEN 60 AND 69;)Tj T* T* (    SELECT COUNT\(*\) INTO v_50_59)Tj T* (    FROM STUDENT_COURSE)Tj T* (    WHERE Course = p_course AND Percentage BETWEEN 50 AND 59;)Tj T* T* (    SELECT COUNT\(*\) INTO v_below49)Tj T* (    FROM STUDENT_COURSE)Tj T* (    WHERE Course = p_course AND Percentage < 49;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Course: ' || p_course\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('70-100% Students: ' || v_70_100\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('60-69% Students: ' || v_60_69\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('50-59% Students: ' || v_50_59\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Below 49% Students: ' || v_below49\);)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1bd295627-4f59-4b22-bbf2-56aee72e503a 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+87 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+88 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+89 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+90 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+91 0 obj
+<<
+/Type /Page
+/Contents [ 92 0 R 93 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 88 0 R
+/F3 90 0 R
+/F1345075d4-d527-4bd8-9319-a2b6a13ee7c5 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+92 0 obj
+<<
+/Length 1045
+>>
+stream
+q q 1 0 0 1 78 508.6898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 247.2 Tm (END;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Procedure Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: EXECUTE PROCEDURE)Tj T* (------------------------------------------------------------)Tj T* T* (EXEC Student_Percentage_Report\('MCA'\);)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Course: MCA)Tj T* (70-100% Students: 2)Tj T* (60-69% Students: 1)Tj T* (50-59% Students: 1)Tj T* (Below 49% Students: 1)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Procedure is a named PL/SQL block.)Tj T* (2. IN parameter is used to pass value to procedure.)Tj T* (3. COUNT\(*\) counts number of records.)Tj T* (4. BETWEEN operator checks range of values.)Tj T* (5. DBMS_OUTPUT.PUT_LINE displays output.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1345075d4-d527-4bd8-9319-a2b6a13ee7c5 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+93 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+94 0 obj
+<<
+/Type /Page
+/Contents [ 95 0 R 96 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 97 0 R
+/F2 98 0 R
+/F3 99 0 R
+/F18ae6e415-71a2-4778-8cc8-a7c717c03d28 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+95 0 obj
+<<
+/Length 2362
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 11 - Stored Function for)Tj T* (Addition)Tj T* ET Q q 1 0 0 1 78 111.4898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 572.8 Tm (QUESTION:)Tj T* T* (Create a stored function that accepts 2 numbers and returns the )Tj T* (addition of passed values. Also, write the code to call your function.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE FUNCTION)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE OR REPLACE FUNCTION Add_Numbers\()Tj T* (    num1 IN NUMBER,)Tj T* (    num2 IN NUMBER)Tj T* (\) RETURN NUMBER)Tj T* (IS)Tj T* (    result NUMBER;)Tj T* (BEGIN)Tj T* (    result := num1 + num2;)Tj T* (    RETURN result;)Tj T* (END;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Function Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: CALL FUNCTION USING PL/SQL BLOCK)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    v_result NUMBER;)Tj T* (BEGIN)Tj T* (    v_result := Add_Numbers\(10, 20\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Addition Result: ' || v_result\);)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Addition Result: 30)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CALL FUNCTION USING SELECT STATEMENT)Tj T* (------------------------------------------------------------)Tj T* T* (SELECT Add_Numbers\(15, 25\) AS Result FROM DUAL;)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Result)Tj T* (------)Tj T* (40)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Function must return a value using RETURN keyword.)Tj T* (2. IN parameter is used to pass values to function.)Tj T* (3. DUAL is a dummy table used in Oracle.)Tj T* (4. Stored function can be called inside SELECT statement.)Tj T* (5. Difference between Procedure and Function:)Tj T* (   - Function returns value.)Tj T* (   - Procedure may or may not return value.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F18ae6e415-71a2-4778-8cc8-a7c717c03d28 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+96 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+97 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+98 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+99 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+100 0 obj
+<<
+/Type /Page
+/Contents [ 101 0 R 102 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 103 0 R
+/F2 104 0 R
+/F3 105 0 R
+/F1a8141abe-d25d-41f7-922d-031534005dd5 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+101 0 obj
+<<
+/Length 2556
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 12 - Function for Department)Tj T* (Total Salary)Tj T* ET Q q 1 0 0 1 78 93.88976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 590.4 Tm (QUESTION:)Tj T* T* (Write a PL/SQL function that accepts the department number and )Tj T* (returns the total salary of the department. Also, write a block to call the function.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEE \()Tj T* (    Emp_id NUMBER PRIMARY KEY,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Dept_no NUMBER,)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEE VALUES \(1,'Om',10,30000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(2,'Rahul',10,40000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(3,'Sneha',20,50000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(4,'Amit',20,35000\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CREATE FUNCTION)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE OR REPLACE FUNCTION Get_Total_Salary\(p_deptno IN NUMBER\))Tj T* (RETURN NUMBER)Tj T* (IS)Tj T* (    v_total NUMBER;)Tj T* (BEGIN)Tj T* (    SELECT SUM\(Salary\) INTO v_total)Tj T* (    FROM EMPLOYEE)Tj T* (    WHERE Dept_no = p_deptno;)Tj T* T* (    RETURN v_total;)Tj T* (END;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Function Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: CALL FUNCTION USING PL/SQL BLOCK)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    v_result NUMBER;)Tj T* (BEGIN)Tj T* (    v_result := Get_Total_Salary\(10\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Total Salary of Department 10: ' || v_result\);)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Total Salary of Department 10: 70000)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 .8 Tm (------------------------------------------------------------)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1a8141abe-d25d-41f7-922d-031534005dd5 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+102 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+103 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+104 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+105 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+106 0 obj
+<<
+/Type /Page
+/Contents [ 107 0 R 108 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 103 0 R
+/F3 105 0 R
+/F10a880796-e765-4e7d-8361-5d6f78040503 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+107 0 obj
+<<
+/Length 867
+>>
+stream
+q q 1 0 0 1 78 587.8898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 168 Tm (STEP 5: CALL FUNCTION USING SELECT STATEMENT)Tj T* (------------------------------------------------------------)Tj T* T* (SELECT Get_Total_Salary\(20\) AS Total_Salary FROM DUAL;)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Total_Salary)Tj T* (------------)Tj T* (85000)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Function returns a value using RETURN statement.)Tj T* (2. SUM\(\) is an aggregate function.)Tj T* (3. Parameter is passed using IN mode.)Tj T* (4. DUAL is a dummy table in Oracle.)Tj T* (5. Function can be called inside SELECT statement.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F10a880796-e765-4e7d-8361-5d6f78040503 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+108 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+109 0 obj
+<<
+/Type /Page
+/Contents [ 110 0 R 111 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 112 0 R
+/F2 113 0 R
+/F3 114 0 R
+/F191fa1aef-c33b-4052-9879-06c5aa84559c <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+110 0 obj
+<<
+/Length 2324
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 13 - Package Specification)Tj T* (and Body)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Write a PL/SQL code to create:)Tj T* T* (1. Package Specification)Tj T* (2. Package Body)Tj T* T* (For the insert, retrieve, update, and delete operations on a STUDENT table.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE STUDENT TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE STUDENT \()Tj T* (    Student_id NUMBER PRIMARY KEY,)Tj T* (    Student_name VARCHAR2\(50\),)Tj T* (    Course VARCHAR2\(50\),)Tj T* (    Marks NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: CREATE PACKAGE SPECIFICATION)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE OR REPLACE PACKAGE Student_Pkg AS)Tj T* T* (    PROCEDURE Insert_Student\()Tj T* (        p_id NUMBER,)Tj T* (        p_name VARCHAR2,)Tj T* (        p_course VARCHAR2,)Tj T* (        p_marks NUMBER\);)Tj T* T* (    PROCEDURE Retrieve_Student\(p_id NUMBER\);)Tj T* T* (    PROCEDURE Update_Student\()Tj T* (        p_id NUMBER,)Tj T* (        p_name VARCHAR2,)Tj T* (        p_course VARCHAR2,)Tj T* (        p_marks NUMBER\);)Tj T* T* (    PROCEDURE Delete_Student\(p_id NUMBER\);)Tj T* T* (END Student_Pkg;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Package Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CREATE PACKAGE BODY)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (CREATE OR REPLACE PACKAGE BODY Student_Pkg AS)Tj T* T* (    PROCEDURE Insert_Student\()Tj T* (        p_id NUMBER,)Tj T* (        p_name VARCHAR2,)Tj T* (        p_course VARCHAR2,)Tj T* (        p_marks NUMBER\) IS)Tj T* (    BEGIN)Tj T* (        INSERT INTO STUDENT)Tj T* (        VALUES \(p_id, p_name, p_course, p_marks\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Student Inserted Successfully'\);)Tj T* (    END;)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F191fa1aef-c33b-4052-9879-06c5aa84559c 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+111 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+112 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+113 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+114 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+115 0 obj
+<<
+/Type /Page
+/Contents [ 116 0 R 117 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 112 0 R
+/F3 114 0 R
+/F16510cfad-547f-4075-a57f-6b52ee33cf18 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+116 0 obj
+<<
+/Length 2586
+>>
+stream
+q q 1 0 0 1 78 121.4898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 634.4 Tm (    PROCEDURE Retrieve_Student\(p_id NUMBER\) IS)Tj T* (        v_name STUDENT.Student_name%TYPE;)Tj T* (        v_course STUDENT.Course%TYPE;)Tj T* (        v_marks STUDENT.Marks%TYPE;)Tj T* (    BEGIN)Tj T* (        SELECT Student_name, Course, Marks)Tj T* (        INTO v_name, v_course, v_marks)Tj T* (        FROM STUDENT)Tj T* (        WHERE Student_id = p_id;)Tj T* T* (        DBMS_OUTPUT.PUT_LINE\('Name: ' || v_name\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Course: ' || v_course\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Marks: ' || v_marks\);)Tj T* (    END;)Tj T* T* (    PROCEDURE Update_Student\()Tj T* (        p_id NUMBER,)Tj T* (        p_name VARCHAR2,)Tj T* (        p_course VARCHAR2,)Tj T* (        p_marks NUMBER\) IS)Tj T* (    BEGIN)Tj T* (        UPDATE STUDENT)Tj T* (        SET Student_name = p_name,)Tj T* (            Course = p_course,)Tj T* (            Marks = p_marks)Tj T* (        WHERE Student_id = p_id;)Tj T* T* (        DBMS_OUTPUT.PUT_LINE\('Student Updated Successfully'\);)Tj T* (    END;)Tj T* T* (    PROCEDURE Delete_Student\(p_id NUMBER\) IS)Tj T* (    BEGIN)Tj T* (        DELETE FROM STUDENT)Tj T* (        WHERE Student_id = p_id;)Tj T* T* (        DBMS_OUTPUT.PUT_LINE\('Student Deleted Successfully'\);)Tj T* (    END;)Tj T* T* (END Student_Pkg;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Package Body Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: CALL PACKAGE PROCEDURES)Tj T* (------------------------------------------------------------)Tj T* T* (EXEC Student_Pkg.Insert_Student\(1,'Om','MCA',85\);)Tj T* (EXEC Student_Pkg.Retrieve_Student\(1\);)Tj T* (EXEC Student_Pkg.Update_Student\(1,'Omkar','MCA',90\);)Tj T* (EXEC Student_Pkg.Delete_Student\(1\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Student Inserted Successfully)Tj T* (Name: Om)Tj T* (Course: MCA)Tj T* (Marks: 85)Tj T* (Student Updated Successfully)Tj T* (Student Deleted Successfully)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Package Specification declares procedures/functions.)Tj T* (2. Package Body defines implementation.)Tj T* (3. Package improves modularity and code reusability.)Tj T* (4. EXEC is used to call stored procedures.)Tj T* (5. %TYPE inherits datatype from table column.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F16510cfad-547f-4075-a57f-6b52ee33cf18 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+117 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+118 0 obj
+<<
+/Type /Page
+/Contents [ 119 0 R 120 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 121 0 R
+/F2 122 0 R
+/F3 123 0 R
+/F107dd95e8-eb42-49d5-8360-ef595743bf17 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+119 0 obj
+<<
+/Length 2385
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (PL/SQL Practical No. 14 - Exception Handling)Tj T* ET Q q 1 0 0 1 78 89.48976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 616.8 Tm (QUESTION:)Tj T* T* (Write a program to illustrate:)Tj T* (1. User-defined exceptions)Tj T* (2. Built-in exceptions)Tj T* (3. Raise application error exceptions)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: BUILT-IN EXCEPTION \(ZERO_DIVIDE\))Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    num1 NUMBER := 10;)Tj T* (    num2 NUMBER := 0;)Tj T* (    result NUMBER;)Tj T* (BEGIN)Tj T* (    result := num1 / num2;)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Result: ' || result\);)Tj T* T* (EXCEPTION)Tj T* (    WHEN ZERO_DIVIDE THEN)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Error: Cannot divide by zero.'\);)Tj T* (END;)Tj T* (/)Tj T* T* (EXPECTED OUTPUT:)Tj T* (Error: Cannot divide by zero.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: USER-DEFINED EXCEPTION)Tj T* (------------------------------------------------------------)Tj T* T* (DECLARE)Tj T* (    age NUMBER := 15;)Tj T* (    invalid_age EXCEPTION;)Tj T* (BEGIN)Tj T* (    IF age < 18 THEN)Tj T* (        RAISE invalid_age;)Tj T* (    END IF;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Valid Age'\);)Tj T* T* (EXCEPTION)Tj T* (    WHEN invalid_age THEN)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Error: Age must be 18 or above.'\);)Tj T* (END;)Tj T* (/)Tj T* T* (EXPECTED OUTPUT:)Tj T* (Error: Age must be 18 or above.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: RAISE_APPLICATION_ERROR EXCEPTION)Tj T* (------------------------------------------------------------)Tj T* T* (DECLARE)Tj T* (    salary NUMBER := 2000;)Tj T* (BEGIN)Tj T* (    IF salary < 5000 THEN)Tj T* (        RAISE_APPLICATION_ERROR\(-20001, 'Salary too low.'\);)Tj T* (    END IF;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Salary is acceptable.'\);)Tj T* T* (EXCEPTION)Tj T* (    WHEN OTHERS THEN)Tj T* (        DBMS_OUTPUT.PUT_LINE\(SQLERRM\);)Tj T* (END;)Tj T* (/)Tj T* ET Q q 1 0 0 1 78 80.68976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 .8 Tm (EXPECTED OUTPUT:)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F107dd95e8-eb42-49d5-8360-ef595743bf17 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+120 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+121 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+122 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+123 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+124 0 obj
+<<
+/Type /Page
+/Contents [ 125 0 R 126 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 121 0 R
+/F3 123 0 R
+/F19201eba2-cd18-4e33-8656-e2220b447d66 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+125 0 obj
+<<
+/Length 646
+>>
+stream
+q q 1 0 0 1 78 675.8898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 80 Tm (ORA-20001: Salary too low.)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Built-in exceptions are predefined \(ZERO_DIVIDE, NO_DATA_FOUND\).)Tj T* (2. User-defined exceptions are declared using EXCEPTION keyword.)Tj T* (3. RAISE keyword is used to raise user-defined exception.)Tj T* (4. RAISE_APPLICATION_ERROR is used to create custom Oracle error.)Tj T* (5. SQLERRM returns error message text.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F19201eba2-cd18-4e33-8656-e2220b447d66 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+126 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+127 0 obj
+<<
+/Type /Page
+/Contents [ 128 0 R 129 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 130 0 R
+/F2 131 0 R
+/F3 132 0 R
+/F178c54295-6309-47e9-898f-cce4f18a6349 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+128 0 obj
+<<
+/Length 1581
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 15 - Reverse String Using)Tj T* (PL/SQL Block)Tj T* ET Q q 1 0 0 1 78 357.8898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 326.4 Tm (QUESTION:)Tj T* T* (Write a program to reverse a string using PL/SQL block.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: PL/SQL BLOCK)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    v_string VARCHAR2\(50\) := 'BHAVESH';)Tj T* (    v_reverse VARCHAR2\(50\) := '';)Tj T* (    i NUMBER;)Tj T* (BEGIN)Tj T* (    FOR i IN REVERSE 1..LENGTH\(v_string\) LOOP)Tj T* (        v_reverse := v_reverse || SUBSTR\(v_string, i, 1\);)Tj T* (    END LOOP;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Original String: ' || v_string\);)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Reversed String: ' || v_reverse\);)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Original String: BHAVESH)Tj T* (Reversed String: HSEVAHB)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. LENGTH\(\) returns length of string.)Tj T* (2. SUBSTR\(\) extracts character from string.)Tj T* (3. REVERSE loop runs from last position to first.)Tj T* (4. || operator is used for string concatenation.)Tj T* (5. DBMS_OUTPUT.PUT_LINE displays output.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F178c54295-6309-47e9-898f-cce4f18a6349 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+129 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+130 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+131 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+132 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+133 0 obj
+<<
+/Type /Page
+/Contents [ 134 0 R 135 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 136 0 R
+/F2 137 0 R
+/F3 138 0 R
+/F1772b3590-db09-4f83-8865-7a3117086107 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+134 0 obj
+<<
+/Length 2565
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT -.229051 Tw 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 16 - Trigger for Auditing Table)Tj T* 0 Tw (Changes)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Create a trigger that records changes to an EMPLOYEES table )Tj T* (\(INSERT, UPDATE, DELETE\) into an EMPLOYEES_AUDIT table. )Tj T* (Include details like EMPLOYEE_ID, OPERATION_TYPE, TIMESTAMP.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE EMPLOYEES TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEES \()Tj T* (    Employee_ID NUMBER PRIMARY KEY,)Tj T* (    Employee_Name VARCHAR2\(50\),)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: CREATE AUDIT TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEES_AUDIT \()Tj T* (    Employee_ID NUMBER,)Tj T* (    Operation_Type VARCHAR2\(10\),)Tj T* (    Operation_Time DATE)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: CREATE TRIGGER)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE OR REPLACE TRIGGER Employees_Audit_Trigger)Tj T* (AFTER INSERT OR UPDATE OR DELETE ON EMPLOYEES)Tj T* (FOR EACH ROW)Tj T* (BEGIN)Tj T* (    IF INSERTING THEN)Tj T* (        INSERT INTO EMPLOYEES_AUDIT)Tj T* (        VALUES \(:NEW.Employee_ID, 'INSERT', SYSDATE\);)Tj T* T* (    ELSIF UPDATING THEN)Tj T* (        INSERT INTO EMPLOYEES_AUDIT)Tj T* (        VALUES \(:NEW.Employee_ID, 'UPDATE', SYSDATE\);)Tj T* T* (    ELSIF DELETING THEN)Tj T* (        INSERT INTO EMPLOYEES_AUDIT)Tj T* (        VALUES \(:OLD.Employee_ID, 'DELETE', SYSDATE\);)Tj T* (    END IF;)Tj T* (END;)Tj T* (/)Tj T* T* (OUTPUT:)Tj T* (Trigger Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 4: TEST THE TRIGGER)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEES VALUES \(1,'Om',30000\);)Tj T* (UPDATE EMPLOYEES SET Salary = 35000 WHERE Employee_ID = 1;)Tj T* (DELETE FROM EMPLOYEES WHERE Employee_ID = 1;)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1772b3590-db09-4f83-8865-7a3117086107 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+135 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+136 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+137 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+138 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+139 0 obj
+<<
+/Type /Page
+/Contents [ 140 0 R 141 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 136 0 R
+/F3 138 0 R
+/F12a1e5359-7ec3-493a-91d6-7b5bd89d6792 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+140 0 obj
+<<
+/Length 938
+>>
+stream
+q q 1 0 0 1 78 587.8898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 168 Tm (STEP 5: VERIFY AUDIT TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (SELECT * FROM EMPLOYEES_AUDIT;)Tj T* T* (EXPECTED OUTPUT:)Tj T* T* (Employee_ID | Operation_Type | Operation_Time)Tj T* (1           | INSERT         | 22-FEB-26)Tj T* (1           | UPDATE         | 22-FEB-26)Tj T* (1           | DELETE         | 22-FEB-26)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. AFTER trigger executes after the DML operation.)Tj T* (2. INSERTING, UPDATING, DELETING are conditional predicates.)Tj T* (3. :NEW stores new values, :OLD stores old values.)Tj T* (4. Audit table keeps history of changes.)Tj T* (5. SYSDATE records current system date and time.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F12a1e5359-7ec3-493a-91d6-7b5bd89d6792 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+141 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+142 0 obj
+<<
+/Type /Page
+/Contents [ 143 0 R 144 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 145 0 R
+/F2 146 0 R
+/F3 147 0 R
+/F150413b66-2d57-4f09-8cc5-d5c02e054f78 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+143 0 obj
+<<
+/Length 2723
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 17 - Employee Bonus Using)Tj T* (Explicit Cursor)Tj T* ET Q q 1 0 0 1 78 93.88976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 590.4 Tm (QUESTION:)Tj T* T* (Write a PL/SQL program using an explicit cursor to calculate and )Tj T* (display a 10% bonus for all employees whose salary is greater than 50,000. )Tj T* (Assume a table EMPLOYEES with columns EMPLOYEE_ID, NAME, and SALARY.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE EMPLOYEES TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEES \()Tj T* (    EMPLOYEE_ID NUMBER PRIMARY KEY,)Tj T* (    NAME VARCHAR2\(50\),)Tj T* (    SALARY NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEES VALUES \(1,'Om',60000\);)Tj T* (INSERT INTO EMPLOYEES VALUES \(2,'Rahul',45000\);)Tj T* (INSERT INTO EMPLOYEES VALUES \(3,'Sneha',75000\);)Tj T* (INSERT INTO EMPLOYEES VALUES \(4,'Amit',52000\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: PL/SQL PROGRAM USING EXPLICIT CURSOR)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    CURSOR emp_cursor IS)Tj T* (        SELECT EMPLOYEE_ID, NAME, SALARY)Tj T* (        FROM EMPLOYEES)Tj T* (        WHERE SALARY > 50000;)Tj T* T* (    v_id EMPLOYEES.EMPLOYEE_ID%TYPE;)Tj T* (    v_name EMPLOYEES.NAME%TYPE;)Tj T* (    v_salary EMPLOYEES.SALARY%TYPE;)Tj T* (    v_bonus NUMBER;)Tj T* (BEGIN)Tj T* (    OPEN emp_cursor;)Tj T* T* (    LOOP)Tj T* (        FETCH emp_cursor INTO v_id, v_name, v_salary;)Tj T* (        EXIT WHEN emp_cursor%NOTFOUND;)Tj T* T* (        v_bonus := v_salary * 0.10;)Tj T* T* (        DBMS_OUTPUT.PUT_LINE\('Employee ID: ' || v_id\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Name: ' || v_name\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Salary: ' || v_salary\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('Bonus \(10%\): ' || v_bonus\);)Tj T* (        DBMS_OUTPUT.PUT_LINE\('-----------------------------'\);)Tj T* (    END LOOP;)Tj T* T* (    CLOSE emp_cursor;)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 .8 Tm (Employee ID: 1)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F150413b66-2d57-4f09-8cc5-d5c02e054f78 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+144 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+145 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+146 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+147 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+148 0 obj
+<<
+/Type /Page
+/Contents [ 149 0 R 150 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 145 0 R
+/F3 147 0 R
+/F15384b9ea-7347-4e8a-9efb-c2a0c4ac68bc <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+149 0 obj
+<<
+/Length 813
+>>
+stream
+q q 1 0 0 1 78 570.2898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 185.6 Tm (Name: Om)Tj T* (Salary: 60000)Tj T* (Bonus \(10%\): 6000)Tj T* T* (Employee ID: 3)Tj T* (Name: Sneha)Tj T* (Salary: 75000)Tj T* (Bonus \(10%\): 7500)Tj T* T* (Employee ID: 4)Tj T* (Name: Amit)Tj T* (Salary: 52000)Tj T* (Bonus \(10%\): 5200)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Explicit cursor is declared using CURSOR keyword.)Tj T* (2. OPEN, FETCH, and CLOSE are required for explicit cursor.)Tj T* (3. %NOTFOUND checks if no more rows are available.)Tj T* (4. Bonus is calculated using salary * 0.10.)Tj T* (5. DBMS_OUTPUT.PUT_LINE displays output.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F15384b9ea-7347-4e8a-9efb-c2a0c4ac68bc 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+150 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+151 0 obj
+<<
+/Type /Page
+/Contents [ 152 0 R 153 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 154 0 R
+/F2 155 0 R
+/F3 156 0 R
+/F1bef0bde5-2d11-4647-a38b-d59289117ed7 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+152 0 obj
+<<
+/Length 2453
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (SQL Practical No. 18 - Implementation of)Tj T* (Aggregate Functions)Tj T* ET Q q 1 0 0 1 78 85.08976 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 599.2 Tm (QUESTION:)Tj T* T* (Write a SQL program to implement Aggregate Functions.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: CREATE EMPLOYEE TABLE)Tj T* (------------------------------------------------------------)Tj T* T* (CREATE TABLE EMPLOYEE \()Tj T* (    Emp_id NUMBER PRIMARY KEY,)Tj T* (    Emp_name VARCHAR2\(50\),)Tj T* (    Department VARCHAR2\(50\),)Tj T* (    Salary NUMBER)Tj T* (\);)Tj T* T* (OUTPUT:)Tj T* (Table Created.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 2: INSERT SAMPLE DATA)Tj T* (------------------------------------------------------------)Tj T* T* (INSERT INTO EMPLOYEE VALUES \(1,'Om','IT',50000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(2,'Rahul','HR',30000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(3,'Sneha','IT',60000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(4,'Amit','Finance',40000\);)Tj T* (INSERT INTO EMPLOYEE VALUES \(5,'Neha','HR',35000\);)Tj T* T* (COMMIT;)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 3: APPLY AGGREGATE FUNCTIONS)Tj T* (------------------------------------------------------------)Tj T* T* <312920434f554e542829209620436f756e7420746f74616c20656d706c6f79656573>Tj T* T* (SELECT COUNT\(*\) AS Total_Employees FROM EMPLOYEE;)Tj T* T* (Expected Output:)Tj T* (Total_Employees)Tj T* (5)Tj T* T* (------------------------------------------------------------)Tj T* T* <32292053554d2829209620546f74616c2073616c617279206f6620656d706c6f79656573>Tj T* T* (SELECT SUM\(Salary\) AS Total_Salary FROM EMPLOYEE;)Tj T* T* (Expected Output:)Tj T* (Total_Salary)Tj T* (215000)Tj T* T* (------------------------------------------------------------)Tj T* T* <3329204156472829209620417665726167652073616c617279>Tj T* T* (SELECT AVG\(Salary\) AS Average_Salary FROM EMPLOYEE;)Tj T* T* (Expected Output:)Tj T* (Average_Salary)Tj T* (43000)Tj T* T* (------------------------------------------------------------)Tj T* T* <3429204d41582829209620486967686573742073616c617279>Tj T* T* (SELECT MAX\(Salary\) AS Highest_Salary FROM EMPLOYEE;)Tj T* T* (Expected Output:)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1bef0bde5-2d11-4647-a38b-d59289117ed7 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+153 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+154 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+155 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+156 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+157 0 obj
+<<
+/Type /Page
+/Contents [ 158 0 R 159 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 154 0 R
+/F3 156 0 R
+/F1cc231e1b-85cf-4915-8947-342a62e42cf0 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+158 0 obj
+<<
+/Length 1357
+>>
+stream
+q q 1 0 0 1 78 447.0898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 308.8 Tm (Highest_Salary)Tj T* (60000)Tj T* T* (------------------------------------------------------------)Tj T* T* <3529204d494e28292096204c6f776573742073616c617279>Tj T* T* (SELECT MIN\(Salary\) AS Lowest_Salary FROM EMPLOYEE;)Tj T* T* (Expected Output:)Tj T* (Lowest_Salary)Tj T* (30000)Tj T* T* (------------------------------------------------------------)Tj T* T* <36292041676772656761746520776974682047524f55502042592096204465706172746d656e742d7769736520746f74616c2073616c617279>Tj T* T* (SELECT Department, SUM\(Salary\) AS Total_Salary)Tj T* (FROM EMPLOYEE)Tj T* (GROUP BY Department;)Tj T* T* (Expected Output:)Tj T* T* (Department | Total_Salary)Tj T* (IT         | 110000)Tj T* (HR         | 65000)Tj T* (Finance    | 40000)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. Aggregate functions operate on multiple rows and return a single value.)Tj T* (2. Common aggregate functions: COUNT, SUM, AVG, MAX, MIN.)Tj T* (3. GROUP BY is used with aggregate functions.)Tj T* (4. NULL values are ignored in aggregate functions \(except COUNT\(*\)\).)Tj T* (5. Aggregate functions are used in SELECT statement.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1cc231e1b-85cf-4915-8947-342a62e42cf0 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+159 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+160 0 obj
+<<
+/Type /Page
+/Contents [ 161 0 R 162 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 163 0 R
+/F2 164 0 R
+/F3 165 0 R
+/F13a590c9e-ba55-4802-8494-cec909d94047 <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+161 0 obj
+<<
+/Length 1972
+>>
+stream
+q q 1 0 0 1 78 741.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 4 Tm (PL/SQL Practical No. 19 - Finding Even Numbers)Tj T* ET Q q 1 0 0 1 78 168.6898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 537.6 Tm (QUESTION:)Tj T* T* (Write PL/SQL code for finding even numbers.)Tj T* T* (------------------------------------------------------------)Tj T* (STEP 1: PL/SQL BLOCK TO DISPLAY EVEN NUMBERS FROM 1 TO 20)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    i NUMBER;)Tj T* (BEGIN)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Even Numbers from 1 to 20 are:'\);)Tj T* T* (    FOR i IN 1..20 LOOP)Tj T* (        IF MOD\(i, 2\) = 0 THEN)Tj T* (            DBMS_OUTPUT.PUT_LINE\(i\);)Tj T* (        END IF;)Tj T* (    END LOOP;)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Even Numbers from 1 to 20 are:)Tj T* (2)Tj T* (4)Tj T* (6)Tj T* (8)Tj T* (10)Tj T* (12)Tj T* (14)Tj T* (16)Tj T* (18)Tj T* (20)Tj T* T* (------------------------------------------------------------)Tj T* (ALTERNATIVE METHOD \(Using WHILE Loop\))Tj T* (------------------------------------------------------------)Tj T* T* (DECLARE)Tj T* (    i NUMBER := 2;)Tj T* (BEGIN)Tj T* (    DBMS_OUTPUT.PUT_LINE\('Even Numbers from 1 to 20 are:'\);)Tj T* T* (    WHILE i <= 20 LOOP)Tj T* (        DBMS_OUTPUT.PUT_LINE\(i\);)Tj T* (        i := i + 2;)Tj T* (    END LOOP;)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. MOD\(number, 2\) = 0 checks even number.)Tj T* (2. FOR loop runs from starting to ending value.)Tj T* (3. WHILE loop runs until condition becomes false.)Tj T* (4. DBMS_OUTPUT.PUT_LINE displays output.)Tj T* (5. SET SERVEROUTPUT ON enables output display.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F13a590c9e-ba55-4802-8494-cec909d94047 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+162 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+163 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+164 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+165 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+166 0 obj
+<<
+/Type /Page
+/Contents [ 167 0 R 168 0 R ]
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 169 0 R
+/F2 170 0 R
+/F3 171 0 R
+/F1192038d7-fee0-492f-b6b9-c84946575edd <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+>>
+>>
+/Rotate 0
+/Trans <<
+>>
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+167 0 obj
+<<
+/Length 2330
+>>
+stream
+q q 1 0 0 1 78 719.8898 cm 0 0 0 rg BT 22 TL/F2 18 Tf 1 0 0 1 0 26 Tm (PL/SQL Practical No. 20 - Largest of Three)Tj T* (Numbers)Tj T* ET Q q 1 0 0 1 78 102.6898 cm 0 0 0 rg BT 8.8 TL/F3 8 Tf 1 0 0 1 36 581.6 Tm (QUESTION:)Tj T* T* (Write PL/SQL code to find the largest of three numbers.)Tj T* T* (------------------------------------------------------------)Tj T* (METHOD 1: USING IF-ELSIF-ELSE)Tj T* (------------------------------------------------------------)Tj T* T* (SET SERVEROUTPUT ON;)Tj T* T* (DECLARE)Tj T* (    num1 NUMBER := 10;)Tj T* (    num2 NUMBER := 25;)Tj T* (    num3 NUMBER := 15;)Tj T* (    largest NUMBER;)Tj T* (BEGIN)Tj T* (    IF num1 >= num2 AND num1 >= num3 THEN)Tj T* (        largest := num1;)Tj T* (    ELSIF num2 >= num1 AND num2 >= num3 THEN)Tj T* (        largest := num2;)Tj T* (    ELSE)Tj T* (        largest := num3;)Tj T* (    END IF;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Largest Number is: ' || largest\);)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (EXPECTED OUTPUT:)Tj T* T* (Largest Number is: 25)Tj T* T* (------------------------------------------------------------)Tj T* (METHOD 2: TAKING USER INPUT)Tj T* (------------------------------------------------------------)Tj T* T* (DECLARE)Tj T* (    num1 NUMBER;)Tj T* (    num2 NUMBER;)Tj T* (    num3 NUMBER;)Tj T* (    largest NUMBER;)Tj T* (BEGIN)Tj T* (    num1 := &Enter_First_Number;)Tj T* (    num2 := &Enter_Second_Number;)Tj T* (    num3 := &Enter_Third_Number;)Tj T* T* (    IF num1 >= num2 AND num1 >= num3 THEN)Tj T* (        largest := num1;)Tj T* (    ELSIF num2 >= num1 AND num2 >= num3 THEN)Tj T* (        largest := num2;)Tj T* (    ELSE)Tj T* (        largest := num3;)Tj T* (    END IF;)Tj T* T* (    DBMS_OUTPUT.PUT_LINE\('Largest Number is: ' || largest\);)Tj T* (END;)Tj T* (/)Tj T* T* (------------------------------------------------------------)Tj T* (VIVA POINTS:)Tj T* T* (1. IF-ELSIF-ELSE is used for decision making.)Tj T* (2. AND operator checks multiple conditions.)Tj T* (3. >= ensures correct comparison even if numbers are equal.)Tj T* (4. & is used for user input in SQL*Plus.)Tj T* (5. DBMS_OUTPUT.PUT_LINE displays output.)Tj T* ET Q Q q 0 0 612 792 re W n BT 9.6 TL/F1192038d7-fee0-492f-b6b9-c84946575edd 8 Tf 1 0 0 1 511.352 777.6 Tm T* ET Q
+endstream
+endobj
+168 0 obj
+<<
+/Length 64
+>>
+stream
+
+q
+511.352 775.208 50.24799 10.99194 re
+h
+1 1 1 RG 1 1 1 rg B
+Q
+
+endstream
+endobj
+169 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
+170 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+>>
+endobj
+171 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+>>
+endobj
+172 0 obj
+<<
+/Contents 173 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 174 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+173 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 949
+>>
+stream
+Gb!#ZgMY_1&:N^lk,!rl_!sH/EDkn,YnqBF>O6JV,YQ44%A<hsNN9(/ht7.[+ApQFW*N';hO-A[B.ge=OSFI6hrtK@:Z6,?!6IJJ!F:Kt5RejCorWoTbprt#d']f#f*]"F!\"f$o+nf(-(K>hFN(Lq5Y?n[b:-=j&nUlBl62fb5]DZ<n'1n\%]@EX)D8j`6pR*c"WB&VEu)Z''Ee=u>9o."*,,+YakB"p!^5Wd;?ZYA>gM)H\&e`cj%hI5l+@FJ:P:\n\Ia1.@`H*`_B`PG-]GrUH(A;/:I/I+m2RlrMQ!?+KKGfN<4B!!>r[ESZS5f!6;m;ET#(V>2N?_L(8cBH&.#l/&XR[VG;Mub#;fm$8qJrhCETKafOI6185fF`JhP\H<(SIif6!JILc_/$YPT-:F@L9-+J?:K2]9=7Gb1oLRR$;=iZ&6#/)Y1jR-5Gj^=akd33I..G7:+c\C8s8YY!ao]BT[6EZk"MT\\,eY`W,O5c#`>IsaUo7D<,gYNaGXLmqsp6H;ha3-5]O<\lljo<"Lp[BSo.)!(Q.g!tjFT$lYcflk1XNe(3UX`0`Io*JW<QI/LJ[Z`BcqU.MJ:p,pV8SXa@8c"`K$J8BZRF5icjTMV/E:&F$ZVQ=eeO[&2.$/Re#]rJ'dS(m0XBX2'V?(Ehn*Ce!;m0ZW4oi=;L7^@!NC=o,#1,s0oV;TGfIQ:&?hUSa%$+?.;Y#;laK+rF#$EDT,m2oKp))lHoeM0ZSC)Ql<I=YUqD^RRPbtpK2*A`pG.XEN[k+Zdn(FdD.763fT;&5@cVREslgRjTIl$+d?jTq/DM@0a\iY[cTpMLh_hbguEKo;]3WRa`P1>)@K4*WkAe"]5;"%3ogS^'-O&-IMdo%WbmLdV]^Ib6Ho&-BZga@R_Ancji^5Dog<ZiZG(#((oC/^V0VGY_C^LpNqpD'Ii%j86.!W#WNO8~>
+endstream
+endobj
+174 0 obj
+<<
+/F1 175 0 R
+/F2 176 0 R
+/F3 177 0 R
+>>
+endobj
+175 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+176 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+177 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+178 0 obj
+<<
+/Contents 179 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 180 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+179 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 757
+>>
+stream
+Gau0@>uR4X'Re<23%o,Xa'^$=@%9FAA#%6j7+g.YbW%[p<S@FmZW\IKnQe$uEMZF.;[YqoHga+EcJ`)GFOY$jh]r:.'F/+e[KCg`qp7A,og*9OTj_#j-SA0\;p0;Z>udR"*?>]8%971^iLFE)9OTrch%InN8u1%V5DZLj9E\"!R]lsI_Lc9mNJKf=Z/VGS=b>aV%.AK4@h82nkSI7?(25rK7E.8ZMUdtQ9kKsaQJ%a(f/^,HX3dc$i4"E]R$;t^@=nGY7/%PSP>5gX.AR?R_mN`$jD%:rl@hNBbOCul,tB78.HVVU!)!s=P`SMe5"$\O<VN?,Uf</BpKZQrTiR;Y^p)TD73Ra/db8N2[qYl[Z/n"T7qB[<,9Sj?9IO?_?'?\,d`I^t%*jfb&K1HDLhq9i3`]/:\fVA7qN3RL*Hbt@B1?.:p*PgV=#?CY<f1:23?Z^eF[46c^rU6!d9jYL1g`Gh)N,7%1W^pZ2mF'2Ib-F0<u@E%?0N=2AK40sM&.9Yb(Q.t[Oe$RkO`67;X'(M+,1H(A0Xrg?N.XN+J''P)X2j%V#.CR3^SF\`i69`%5-\1[J,uuDL=)[ZW8jrl!9aYBj8dGTipfY$(8m'e5qOjB"ar9WrBCnH?<"+=WR7Vg?c4PH9m.O*Ug6%WWCf32J^V51&3o@+JaL;<+^L;h3rZH4WJkIBNC<QCQW7q/JifCpE'T>2`[J^ifQTV#k>LjHcXj0AO_-NJW,goXZt$KrP]Z3E&<"E<i`"6~>
+endstream
+endobj
+180 0 obj
+<<
+/F1 181 0 R
+/F2 182 0 R
+/F3 183 0 R
+>>
+endobj
+181 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+182 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+183 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+184 0 obj
+<<
+/Contents 185 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 186 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+185 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 684
+>>
+stream
+Gau0A?&tF>'Rf^Wgm:Ldm%OTn9A??F`g//_%YKatabD"J1oMj2PQ(Gc7\m?EFOO3Wi!AM;46PH\UBJRrM#9rT!/?$OMuZ^@Ck,3D#m^d'k^Do^-LsHXLC$h"rN2(g"ND'&^@[L[g2om@@O`+K?Dg]O3mf'h7cE-RTSSd]9B$r(]i&?a@.27FW*g5#LU;_N=7&;lTC[.1iZ!]C>/M=M=,/hRFZb:5U+0m[]a9R<ZS/b,<Mf"(0&f)ff'Zs%SgsJ)h&8i;\tVjRo8&+;p:YYt3J1*r<i+0mPO-mMT]5<?`/h5KOs5m*=fCUp9'+!X3UZn,C4uq.3"/L+BNO+<P066K21spMTnk8^$!7YjK`Ed\!\\R'`Za9K9DK2Ag%)Qbi_c&YJo^H-jm$S7*Nt4R!7R!RGTNSf8/nfP^;#'aRdDnZMd<#r+VPDB^0o`W6kB[o]l"8`qd=d,5'fa23!m?:on#6g53t8>Kg(R4*qDLDED>.OlcJI/'hNM6<H68ArfsV9ltoeFV2Yu\C]dtp(,+QLL)W;s>G0pQjObMX%Ji1]p;OUZ:-K_]n;no0=`+^prj/A[H.MG>dH,4ae92!#r3aJdf7?]'B1oJ-TNAD)_b:(i0]TloE_(D`nRnLTkj<YE77R`LRNgRI1RboZe/FFg`S!3Q1^Tg&lPVk=q58c"0<j;mH2~>
+endstream
+endobj
+186 0 obj
+<<
+/F1 187 0 R
+/F2 188 0 R
+/F3 189 0 R
+>>
+endobj
+187 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+188 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+189 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+190 0 obj
+<<
+/Contents 191 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 192 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+191 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 740
+>>
+stream
+Gau0A?#-3#'Re<23%lRLBl#Z#[9N@@k[Z1\9m#0r+;ClblXF>TO$]O)I]jhJfIh8SP8R?>1NV]K485b2$gM2L%lV4nj*W":Pe\@ac@d(F!QGAZ#@]dd9#d-@/]dLj9IgCYW.F;L5\n?!::^Sc&=3MsY.,aV@N)A-F(]>tQ2*]X#CZ_1'd-4*JbpG`70GQ1[nk@0cUf+p`>JLhpaJ[IRH8.k)j6jOotIA_Bd`0d,fuc7CS?ql(-SPJ`\32t>ksff=8gT@bSp5@LFHsGZ67a?eh2$RDOFimFa$t^dT^WU)Fc,Q\1:;4$nm'-7QKH[Jh/+$+U\5mTf6Q/.2muPYTp9,-i_RTF^1=R%,OOso5YL18OuAH$FQ#VNV>UHZ!C)bE*$NrpI;`;##e[11T6UT43SWchHq4Ge^E))X=t->g#&37\U<LZ=QW=r_OQ&'c#-lbCJVYR64^*KRRl?eL.bMap>EPeAi&WhJPpua$CslEnq_K]'@]SU9'.[R.#Y#oVCt2S3E]IeWI`s4^<!<go;-NcfFmDZ2ft7/UM>p.h2tBpj6[:CfMR`BTf:--EEf=aS2(AE4F\oGjE9[GDgLKgE7dDC2DimK5MpI1Ua$!<iaY5QCUqsjIP/n"&'b]XBoVm4,anFAL_"EY10S&_!2Z]9Pd3$2b&N;mD(Tt.cp'fgF4;:ejs[:)pd@UWMq&Hps&g]@UakX0W</<$>kmc<BanmWAh%3F!VNW!K0O/3TX4~>
+endstream
+endobj
+192 0 obj
+<<
+/F1 193 0 R
+/F2 194 0 R
+/F3 195 0 R
+>>
+endobj
+193 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+194 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+195 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+196 0 obj
+<<
+/Contents 197 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 198 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+197 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 744
+>>
+stream
+Gau0A?&tF>'Rf^Wgm=#S\0u$U?(V\2>oI8#)7qa\0gs\H%>k>EeANHd@;ojj[7QRnQhZ]uF3d#4%&aLbI];=T\HWm)BF\$=2.04QG*EIj#EVr7<R`8!VaF7n;fqt5k7bMU&rkt__Ilk?VfdQm3L9rMSo\ULc;aD*-652+-2oY-Q[T'TXFSlQ>Hktd)u4iroeq^%5larIq-fN=Jc,`F$#7(/gcP]<hF?HZbeW![Bq2hZ\\p5;atd1<.J$iGh<N,5NL'cDEO,;E/6I1Hia6fWmQt.0$VtUNQ?5P3T#O^)bU2bkPkpc#=TCsqbBOae(;oFN_,XnT/fIYpaTUSiJ!<pON.HU8Y8M&c>6eP(8`6fG@.FirHsV<OIuST&#Y1IRAr(O]^Fj?'!U(FHC]H=4@ksP*YOD.O]h'dQ!*^-T:n2pN$(3Peb(.##'#6ht4%$OrGa["e,ngR8gVm&11"`i9aGZdF-A0'g"iCWaaZ_;[bo'h'iTdPKS1rd'R>:ahb*U)ekI8;74Pt8nR/2r;lqa:.Sha@)#Pc8]9@LgHpVcj;BSR/f/;kZ,o:_D8bD>Z>3!sRp?2_*Dr,+<8HmgS\E=!SIWGA%TaNGK\kb:%6KteC`mGbcZ[B4eS_Vn<ZHT7Ot\l_sO\O&;*ErPf9.U:*[_W8@9[Y_.5Oumkt3eZLh`+sU,^=KsrK3-"c!RG#"$L0@pYOR[5N9G>@Qe[qFZm3fQ5H'.OF\d#:rrO["!%R*4:B~>
+endstream
+endobj
+198 0 obj
+<<
+/F1 199 0 R
+/F2 200 0 R
+/F3 201 0 R
+>>
+endobj
+199 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+200 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+201 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+202 0 obj
+<<
+/Contents 203 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 204 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+203 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 715
+>>
+stream
+Gau0@?#QH6&:O:Sb_m&l('VHdI6nd[CljQoh6%%j+\94_5[)M]-N3I]q2ibYgY03s,FL>Dk8Z*UJ,rk@IeP(;3JIH!!'pba%)RfB!S%3bl`DItaJf;@iLZC3H\kb,`#qi$0.g3T<:.U1d"q?-6'/BYU6p)_9YGAJF>+BS5O<bN"=*%p*5`eq]C[uQ:4U`-(nZB[$nht!5lUi_#+W0[K'e7uEe7f4gV88Z9[Ym\k8D/P>BQ6a@E%f0e5..VUGC@XPMeGr,4BIV[\fC9<s9$\0UrV.4#0Z#a>HQ%P`&_IdA@g:*\+`samK^*.FsQh6&d`A@b?ueK<s>rPFFn91X1(5k@T"W]Dm\E'p[rCK#>]EHAhoe_^+`[-W&HJBm7.\r,4;BDhLb^-Q>J.WErk)m/\-r&pn$0\nl5Rmd7EJhCD"509B`i"WOS9BTY/0f+a#qWrZ1!Qnk`i!t/[Wfu2%I\Eat.5dP6V/8Wg5Tlkim@?Dj8<n8X07IP-&HTi$h?J_Ou'5+]Zmr#D@/tg1>3]>%)n[iD_WelSP"oTbYSIi-$BRs-.XJn*+.4P!@7^GQ)rmE2W4k<*2%71kAD5b_4=fCqgm1s&^B:#Z7#!-!:4%UKd"!8UtVq>3`hUUhSVbU5uY][O"^1aIUpa.R]-T59eNPc,=>lXMI5iKTsD#V;s+7\fJA^5P9U7,$]jDa8e'k23?aH(+Mr<7"#NZS~>
+endstream
+endobj
+204 0 obj
+<<
+/F1 205 0 R
+/F2 206 0 R
+/F3 207 0 R
+>>
+endobj
+205 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+206 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+207 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+208 0 obj
+<<
+/Contents 209 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 210 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+209 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 736
+>>
+stream
+Gau1,?#QH6&;KZP'm!m79gtc,dX$U,DV6-;4icrYO;NT!AYYClm&#V(ILcZGQ.>8.CcfQgk+.oQ?6H8pjbG>BK.Xm#6"d9NWW@GJ[AWYIfmp0tZ_j&2>9.U.WhSg'3j7IuY"0i()R!.P4'oGYXY`lI]ToAUNLI$+Ti2oc`"0.%n2K:D$>=j$_`Wp%CLFnd0_\-W-YWt@%q)%#iDY2)!ONdPn4-+:l\\`?l>@4u`Q?]WZ>eq%M1:Z\\duL2S^K0AY<h[CMCsFWF/7#(cM\?Qq3XQQ#]c&PSbQFA$i5h2#6d9c)>K:^gJBn2MX'nbKLB4fcpmMn7[ibS+W-[ooN*\RndiI5f6W.!O)^m+:0a8>&?.%l0!3M9TOU[b$E.APZ\@"Ws'89m9esQr=Gn@*MR0KG,BN"m)%^FW&WG)tS"Z>\4PFWh7nK/7GA8F:c=`Bc+AfnKPscZ-D)>DS)2r3=!n,Zbe8bm*K6XkOCQ.u,R,XS4F3aAtkOY06.MRG8B+#L\Q.F:)eDL&CbDESC;:Q$P&3jAoV4+pXE*EM_:28rg2BhMA?=RO.K<Wp8UuWTp9r/k1"n_VH4ReiZi:0*peK)NHAF>CA(b:)BXrIluFBRBT$@aXEb<`>bE&c9/1uN=4qKb,k&RLD#:]W&H$Z<.Jh%2SRDU(8-BbQA:%[Ug8/T0Ri9$PZY5Hohj+7Q?IhL:<rn"`rB>on#a+YYfO&5#Ck<$D65T_9>k8"6p~>
+endstream
+endobj
+210 0 obj
+<<
+/F1 211 0 R
+/F2 212 0 R
+/F3 213 0 R
+>>
+endobj
+211 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+212 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+213 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+214 0 obj
+<<
+/Contents 215 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 216 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+215 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 607
+>>
+stream
+GauHHd;GF-'Re;/S<p4N>6tMbcpX@f&9gJc5esHS8.d)RatsaU-%5(!cPSu@akPP&!bC28NmI7'+j`V)nspN2S7-M45]j5W&5tI&>Ym?R1E]ESfYX$2W0VR9$%rRt1;Ft9!_Z]Xr>MaK>WR[@ETqegU]g*6>.Fo`R[)VYr=*\K66G5[9^T06F5T($4i7+GkDqXO+kSHP9.8YjpmLa6:afM(hGpBiXf>GGj"kC:*s/%kms1%]A\JIKSt7fI>f/8?g4B@i^euau@277I3PIFd[GC@iRA7$Qm5I$8O5&JXf+L;O_G493O)R[1oae1T&VRkm(NDuSLNM+tp_F6.,"YMfLBqVPc>8BeZAlo4E/6p8_=?I&b;g#q+e5L]!n"$43]?BL$]8O;P:t9h#Q(/SrT8>fC4Y2841_K6h06o91B(9Qg%G<:"$A1Z^e9/#$lk.#+BgOjSk4:/d]1Wi8AW=RfM?:YYV>ceabS7]6L$.uR(hLtHl9'bQj#3C`Ns_.O!`"<F$2F[DoDhqG^cg6]OVeZVnqTa:RaLgh,E^uiM8o,+emp+)V-tMhs9],^[s/h@%n4g0`U<je10?a,C8H0%@qTiKc'^k/Zr+)~>
+endstream
+endobj
+216 0 obj
+<<
+/F1 217 0 R
+/F2 218 0 R
+/F3 219 0 R
+>>
+endobj
+217 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+218 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+219 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+220 0 obj
+<<
+/Contents 221 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 222 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+221 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 577
+>>
+stream
+GauHH?#Q2d'Re<23%n3$V%O2293U^++(dj65eq1h8.d'XH"p`.8Y>k>B1N*q[^WZNKopedcTUGt"G%^Dl.5b4//b;p!AVD_O;n-&bQDFO+!Yfd]X)TJk.5EUD0\JM7L+bJ8DYXUSTtTdOBa,gh/\oqbG9jK1u<H_7@#kpc^s(H3_ULEnu0ilh,+l"C,il[9u+Jo>sWOBCb9o*F?,J02KGgd%'/"P)e@3+4nKm379PO9ehk>ubXD/+q:7,K_`/O<d-8#^]/-Z_B[#8I^[L94&\KQ32O;t,!lnq[m8ZNM1kbF/"EfP0Hi?oBW/cY:L!VJp*TcrYN*]R&"Y7/Z,)TAg(TQW,8C.rke.b3%Lkabq75:V*m;B\^;BXL>\3BiOEClpI!]TQ/5`Rc!%-%72aFf*81GkUSkpP(a@N;A![jd-9=7Cea<8]rsAFJAVi+`niYIeQ\MT$?60-B4kOK^EI\pUrXldJfP423[qN7V-1m4nlq5&K%:l"%jZ1CTc;g\6*'n@YFsn'LNj1;l$G9VYND&GU"JrbRMh)5Q!QIhq+@nf8(2[!pRaS=#'%K>Qh">i\)J~>
+endstream
+endobj
+222 0 obj
+<<
+/F1 223 0 R
+/F2 224 0 R
+/F3 225 0 R
+>>
+endobj
+223 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+224 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+225 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+226 0 obj
+<<
+/Contents 227 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 228 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+227 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 724
+>>
+stream
+GauHI?#QH&'Rf^WS<l_#Zmb.HfOc3:YIc+e#ig)&8-mVJlUFN/@M=t)p`0r4g<I@5h'%6l]lWU%k?^tP93tfq5$J+PL?:aRVLpInFjpng%:Za.R[.UC(q@u)WaTuYGsV^==[5+!jB8U8e$$U=&ke!lm'1Y\O/.#D1Dnm96p+,/ZZlX$;5&2R-+B$TT5Om'R_\*c=Rm9b!;crn#n!f,<lpAC"S!rW]ApV92O7F0?)q88HP=g::$q#8$W$7\,1^b&o!oQppl@bqfB=2jfSaGgdpf7F->#B6J.5fI[\.n!Q75=_Vc,;o(PD?-a!Ti-A?jI<Kf!3g2o'K_l4GLu]D@:_E+3G*-A78efkf7[k">,f^4R^rV"1`eZ9Lji6aoOVm7rLiYkT+Gqj/GG*76&6dl./=fJpWHcZ^u+:OIcUP?I:tg!jT["P8E)So%YaZKqZhUV+R>;Nuo@ZGY(1NhHPf1?t!/"N(Fu5pc3c#Z:Aq*\=p2;ig@(g`Cka3gGm0fjqAC?s/Du"^!'hi4G`s]b7pV7T.8ug[HNPITLMtTA/goK#jK:Do,KLMX7$(Ti+,1UUR2^osL_?2QGs)LIL(66Z9"uKA<DD1,BiY';l?f[jjCfWE_P4*g7:rAG\?iT@?l^l'FW'k8uq3[-_lN5%+!aP0G<Q48B-KE1O#0mmj+BaAC:`V\o_o+(7K"?CtGBQ+)m=M"6\&]Usl"Ig0Z&!GkB+J,~>
+endstream
+endobj
+228 0 obj
+<<
+/F1 229 0 R
+/F2 230 0 R
+/F3 231 0 R
+>>
+endobj
+229 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+230 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+231 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+232 0 obj
+<<
+/Contents 233 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 234 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+233 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 806
+>>
+stream
+Gau0AD/\,^&H9tY\1^dSJi!cSV6)YtU^'U/P123RPp2nQF_OlIg:UD>^Y^>k5c3te[$!t1IHTeTHo;nAoP2oh\-<cV3#QM)ko_$44&o$A=Fd.=daC%AB1"Z-cB[AXHq5b9TN6VcfqPlX%As_%X9hN)D-193HAU-pXV:0S!]LS*4:6]UfSKZX'm_"NBXs?Vj9\9:X,QW[L`[b"Tm]p'Y:)DtJ5b'C[dtd1QJSJq[9lT(,Lk<Lb$YnZ6kg/'\dn:9hRc&l]^):VJH"64U;&_Q6Y0f,$nE^71\?@bfGCs>GoDg`NPdH\QV_3i]\I]H-TM<<.%bRB5GKb__j)V=gI3*q'GBD7rEZ:L8(lm&fY.<0C4Utr/0lR.A]7gS>GX*brriUT;&T;WcH8Z(<Bt*?EpaK%^](btYI]6BRpm0rAhebtG7NPrS!+/!0K?B#2LUt%$6$b>^sTQWJZpHFe)_d$Pi:(XY+OaMVB4^Ki<Z=J+W'(h:m\(TT`dVm>Q]34]*!QfeHtOrd.=gSP9S;gSkV_r0D@FQVVT>ccpC*MiQQ,s[u^It#nYAtTTM:tcL`,SAS?OP,^jSEi<roC3*5gN/fXI4=./)PkZ9fDiYn<?b(he%_Zb*eb;?64=s2u<pY.i:<E6./8,KC(VJE7(P9'Iib6B*C=%'WhU[`5@Ee$>(DZP3*JG/:$?lZ"G%VD6Q1oGCV:XZ.WG?ERg5,re4hDG#I/@q8u]r^!`ne`HkiA23Hh(.$A@!As.,i^"Nr?DUn$qW"&pK9\Qb0E\j1N@ph4.O!,f`h;eaVoXgd/"3SR']K~>
+endstream
+endobj
+234 0 obj
+<<
+/F1 235 0 R
+/F2 236 0 R
+/F3 237 0 R
+>>
+endobj
+235 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+236 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+237 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 238
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000462 00000 n 
+0000000511 00000 n 
+0000000846 00000 n 
+0000003345 00000 n 
+0000003459 00000 n 
+0000003566 00000 n 
+0000003678 00000 n 
+0000003783 00000 n 
+0000004111 00000 n 
+0000004873 00000 n 
+0000004988 00000 n 
+0000005329 00000 n 
+0000008367 00000 n 
+0000008482 00000 n 
+0000008590 00000 n 
+0000008703 00000 n 
+0000008809 00000 n 
+0000009139 00000 n 
+0000010873 00000 n 
+0000010988 00000 n 
+0000011329 00000 n 
+0000013381 00000 n 
+0000013496 00000 n 
+0000013604 00000 n 
+0000013717 00000 n 
+0000013837 00000 n 
+0000014167 00000 n 
+0000018282 00000 n 
+0000018397 00000 n 
+0000018727 00000 n 
+0000020510 00000 n 
+0000020625 00000 n 
+0000020966 00000 n 
+0000023809 00000 n 
+0000023924 00000 n 
+0000024032 00000 n 
+0000024145 00000 n 
+0000024251 00000 n 
+0000024581 00000 n 
+0000025905 00000 n 
+0000026020 00000 n 
+0000026361 00000 n 
+0000028774 00000 n 
+0000028889 00000 n 
+0000028997 00000 n 
+0000029110 00000 n 
+0000029216 00000 n 
+0000029546 00000 n 
+0000030817 00000 n 
+0000030932 00000 n 
+0000031273 00000 n 
+0000034078 00000 n 
+0000034193 00000 n 
+0000034301 00000 n 
+0000034414 00000 n 
+0000034520 00000 n 
+0000034850 00000 n 
+0000035340 00000 n 
+0000035455 00000 n 
+0000035796 00000 n 
+0000038335 00000 n 
+0000038450 00000 n 
+0000038558 00000 n 
+0000038671 00000 n 
+0000038777 00000 n 
+0000039107 00000 n 
+0000040073 00000 n 
+0000040188 00000 n 
+0000040529 00000 n 
+0000042971 00000 n 
+0000043086 00000 n 
+0000043194 00000 n 
+0000043307 00000 n 
+0000043413 00000 n 
+0000043743 00000 n 
+0000044622 00000 n 
+0000044737 00000 n 
+0000045078 00000 n 
+0000047601 00000 n 
+0000047716 00000 n 
+0000047824 00000 n 
+0000047937 00000 n 
+0000048043 00000 n 
+0000048384 00000 n 
+0000051459 00000 n 
+0000051574 00000 n 
+0000051682 00000 n 
+0000051795 00000 n 
+0000051901 00000 n 
+0000052231 00000 n 
+0000053329 00000 n 
+0000053444 00000 n 
+0000053785 00000 n 
+0000056200 00000 n 
+0000056315 00000 n 
+0000056423 00000 n 
+0000056536 00000 n 
+0000056642 00000 n 
+0000056989 00000 n 
+0000059599 00000 n 
+0000059715 00000 n 
+0000059824 00000 n 
+0000059938 00000 n 
+0000060045 00000 n 
+0000060380 00000 n 
+0000061300 00000 n 
+0000061416 00000 n 
+0000061763 00000 n 
+0000064141 00000 n 
+0000064257 00000 n 
+0000064366 00000 n 
+0000064480 00000 n 
+0000064587 00000 n 
+0000064922 00000 n 
+0000067562 00000 n 
+0000067678 00000 n 
+0000068025 00000 n 
+0000070464 00000 n 
+0000070580 00000 n 
+0000070689 00000 n 
+0000070803 00000 n 
+0000070910 00000 n 
+0000071245 00000 n 
+0000071944 00000 n 
+0000072060 00000 n 
+0000072407 00000 n 
+0000074042 00000 n 
+0000074158 00000 n 
+0000074267 00000 n 
+0000074381 00000 n 
+0000074488 00000 n 
+0000074835 00000 n 
+0000077454 00000 n 
+0000077570 00000 n 
+0000077679 00000 n 
+0000077793 00000 n 
+0000077900 00000 n 
+0000078235 00000 n 
+0000079226 00000 n 
+0000079342 00000 n 
+0000079689 00000 n 
+0000082466 00000 n 
+0000082582 00000 n 
+0000082691 00000 n 
+0000082805 00000 n 
+0000082912 00000 n 
+0000083247 00000 n 
+0000084113 00000 n 
+0000084229 00000 n 
+0000084576 00000 n 
+0000087083 00000 n 
+0000087199 00000 n 
+0000087308 00000 n 
+0000087422 00000 n 
+0000087529 00000 n 
+0000087864 00000 n 
+0000089275 00000 n 
+0000089391 00000 n 
+0000089738 00000 n 
+0000091764 00000 n 
+0000091880 00000 n 
+0000091989 00000 n 
+0000092103 00000 n 
+0000092210 00000 n 
+0000092557 00000 n 
+0000094941 00000 n 
+0000095057 00000 n 
+0000095166 00000 n 
+0000095280 00000 n 
+0000095387 00000 n 
+0000095592 00000 n 
+0000096634 00000 n 
+0000096693 00000 n 
+0000096802 00000 n 
+0000096916 00000 n 
+0000097023 00000 n 
+0000097228 00000 n 
+0000098078 00000 n 
+0000098137 00000 n 
+0000098246 00000 n 
+0000098360 00000 n 
+0000098467 00000 n 
+0000098672 00000 n 
+0000099449 00000 n 
+0000099508 00000 n 
+0000099617 00000 n 
+0000099731 00000 n 
+0000099838 00000 n 
+0000100043 00000 n 
+0000100876 00000 n 
+0000100935 00000 n 
+0000101044 00000 n 
+0000101158 00000 n 
+0000101265 00000 n 
+0000101470 00000 n 
+0000102307 00000 n 
+0000102366 00000 n 
+0000102475 00000 n 
+0000102589 00000 n 
+0000102696 00000 n 
+0000102901 00000 n 
+0000103709 00000 n 
+0000103768 00000 n 
+0000103877 00000 n 
+0000103991 00000 n 
+0000104098 00000 n 
+0000104303 00000 n 
+0000105132 00000 n 
+0000105191 00000 n 
+0000105300 00000 n 
+0000105414 00000 n 
+0000105521 00000 n 
+0000105726 00000 n 
+0000106426 00000 n 
+0000106485 00000 n 
+0000106594 00000 n 
+0000106708 00000 n 
+0000106815 00000 n 
+0000107020 00000 n 
+0000107690 00000 n 
+0000107749 00000 n 
+0000107858 00000 n 
+0000107972 00000 n 
+0000108079 00000 n 
+0000108284 00000 n 
+0000109101 00000 n 
+0000109160 00000 n 
+0000109269 00000 n 
+0000109383 00000 n 
+0000109490 00000 n 
+0000109695 00000 n 
+0000110594 00000 n 
+0000110653 00000 n 
+0000110762 00000 n 
+0000110876 00000 n 
+trailer
+<<
+/Size 238
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+110983
+%%EOF
